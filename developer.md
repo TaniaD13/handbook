@@ -8,7 +8,6 @@ permalink: /developer/
 
 Developer guidelines and process for Hypenotic and freelancers.
 
-* [Why should I care?](#why-should-i-care)
 * [Development tools/services](#development-tools-we-use)
 * [Git Workflow](#git-workflow)
 * [HTML/CSS](#htmlcss)
@@ -16,12 +15,6 @@ Developer guidelines and process for Hypenotic and freelancers.
 * [Javascript](#javascript)
 * [Python and Django](#python-and-django)
 * [Wordpress](#wordpress)
-
-## Why should I care?
-
-The point of making these decisions is to make sure that we are all on the same page, and that we can easily understand what was intended when we look at code in the future. 
-
-Secondly, each project should stylistically look simliar. This maintains consistency across projects with multiple developers and makes future maintenance/enhancements easier as there is less ramp up for any one developer.
 
 ## Development tools/services we use
 

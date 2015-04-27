@@ -4,8 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## Why should I care?
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+The point of making these decisions is to make sure that we are all on the same page, and that we can easily understand what was intended when we look at code in the future. 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Secondly, each project should stylistically look simliar. This maintains consistency across projects with multiple developers and makes future maintenance/enhancements easier as there is less ramp up for any one developer.
+## Why should I care?
+
+We're not trying to come up with the perfect way to design, the idea is to deliberately make these decisions as a team so we aren't all making different decisions individually. 
