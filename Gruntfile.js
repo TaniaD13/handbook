@@ -31,8 +31,9 @@ module.exports = function(grunt) {
             },
             dist: {
                 options: {
-                    dest: './_site',
-                    config: '_config.yml'
+                    dest: '_site',
+                    config: '_config.yml',
+                    raw: 'baseurl: '
                 }
             }
         },
