@@ -5,6 +5,7 @@
     	"jquery": "latest",
     	"normalize-scss": "latest",
 		"bourbon": "latest",
-		"neat": "latest"
+		"neat": "latest",
+		"anchor-js": "latest"
   	}
 }
