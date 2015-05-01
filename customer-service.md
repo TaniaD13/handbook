@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Customer Service
+title: customerservice
 permalink: /customer-service/
 ---
 
-# Hypenotic Customer Service
+# Client Service
+
+*CONTENT COMING SOON*

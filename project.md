@@ -1,31 +1,12 @@
 ---
 layout: page
-title: Project
+title: project
 permalink: /project/
 ---
 
-# Hypenotic Project Workflow Handbook
+# Project Flow
 
-Project workflow and guidelines for Hypenotic and freelancers.
-
-* For [designer handbook](https://github.com/hypenotic/designer-handbook)
-* For [developer handbook](https://github.com/hypenotic/developer-handbook)
-
-The purpose of this document is to outline a general project, design and development process that the entire team can get behind, understand and use. We're not trying to come up with the perfect project process as there will always be edge cases.  
-
----
-
-* [Methodology](#methodology)
-* [Phase 1: Strategy](#strategy)
-* [Phase 2: Scope](#scope)
-* [Phase 3: Structure](#structure)
-* [Phase 4: Skeleton](#skeleton)
-* [Phase 5: Surface](#surface)
-* [QA and Cleanup](#qa-and-cleanup)
-* [Launch](#launch)
-* [Resources](#resources)
-
----
+The purpose of this document is to outline a general project, design and development process that the entire team can get behind, understand and use. We're not trying to come up with the perfect project process as there will always be edge cases.
 
 ## Methodology
 We've taken our approach from Jesse James Garretts book on [The Elements of User Experience](http://www.amazon.ca/The-Elements-User-Experience-User-Centered/dp/0735712026). 
@@ -44,7 +25,7 @@ Garrett discusses what user experience development process is all about, ensurin
 
 ---
 
-## Strategy 
+## Phase 1: Strategy 
 
 #### Prerequisites for this phase:
 
@@ -57,10 +38,10 @@ The scope is fundamentally determined by the **strategy** of the site. The strat
 * Define site rationale & business objectives 
 * Define user goals (internal and external)
 * Highlight constraints (Technical and Practical)
-* ~~Creative brief~~ Where should this go??
+* -Creative brief- Where should this go??
 * ~~Define look and feel, tone and voice (Components of a creative brief)~~
 
-## Scope
+## Phase 2: Scope
 
 #### Prerequisites for this phase:
 
@@ -77,7 +58,7 @@ This will have two focuses. The first is **functionality**. What features should
 * Functional specifications brief/Task list outlined
 * Content inventory/audit
 
-## Structure
+## Phase 3: Structure
 
 #### Prerequisites for this phase:
 
@@ -92,7 +73,7 @@ The skeleton is a concrete expression of the more abstract **structure** of the 
 * User flows or user journeys
 * Lo-fi wireframing of the key layouts can happen at this phase
 
-## Skeleton
+## Phase 4: Skeleton
 
 #### Prerequisites for this phase:
 
@@ -106,7 +87,7 @@ Beneath that surface is the **skeleton** of the site: the placement of buttons, 
 * HTML/CSS wireframes in browser with key functionality
 * Visual inventory or moodboard created to aid design
 
-## Surface
+## Phase 5: Surface
 
 #### Prerequisites for this phase:
 

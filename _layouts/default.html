@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html>
+{% include head.html %}
+<body class="{{ page.title }}"  >
+    
+{% include header.html %}
+<div class="wrapper">
 
-  {% include head.html %}
+    {% if page.title == "home" %}
+        <div class="intro">
+            <h1>Hype<span class="fade">Guides</span></h1>
+            <p>The toolkits and guidelines that power Hypenotic projects.</p>
+            <small class="fade">Maintained by your friendly neighbourhood humans at Hypenotic.<br>
+            Created: 25 April 2015 | Last updated: {{ site.time || date_to_long_string}}</small>
+        </div>
+    {% endif %}
 
-  <body>
+    {{ content }}
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+    {% if page.title != "home" %}
+        {% include footer.html %}
+    {% endif %}
+    
+</div>
+</body>
 </html>

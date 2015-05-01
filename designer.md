@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Designer
+title: designer
 permalink: /designer/
 ---
 
-# Hypenotic Designer Handbook
+# Designer Guide
+
+*CONTENT COMING SOON*
 
 Designer guidelines and process for Hypenotic and freelancers.
 
@@ -12,14 +14,15 @@ Designer guidelines and process for Hypenotic and freelancers.
 * [Workflow](#git-workflow)
 * [Best Practices](#best-practices)
 
-## Development tools we use
+## Design Tools
 
 * Photoshop 
 * Wireframing
 * Sketch
-* Macaw
 * White board
 * Typekit
+* Framerjs
+* Gather Content
 
 
 * Designing in the browser

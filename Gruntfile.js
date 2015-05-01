@@ -9,7 +9,7 @@ module.exports = function(grunt) {
                     style: 'nested'
                 },
                 files: {
-                    'style.css': ['css/main.scss']
+                    'style.css': ['src/sass/main.scss']
                 }
             }
         },
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
                     mangle: false
                 },
                 files: {
-                    'dist/js/app.min.js': ['src/components/jquery/dist/jquery.js']
+                    'src/js/app.min.js': ['src/components/jquery/dist/jquery.js', 'src/components/anchor-js/anchor.js']
                 }
             }
         },
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 options: {
-                    dest: '_site',
+                    dest: './_site',
                     config: '_config.yml',
                     raw: 'baseurl: '
                 }
@@ -43,15 +43,23 @@ module.exports = function(grunt) {
                 livereload: true,
             },
             sass: {
-                files: ['_sass/*.{scss,sass}'],
+                files: ['src/sass/**/*.scss'],
                 tasks: ['sass', 'jekyll'],
                 options: {
                     spawn: false,
                 }
             },
 
+            js: {
+                files: ['src/js/*.js'],
+                tasks: ['jekyll'],
+                options: {
+                    spawn: false,
+                }
+            },
+
             html: {
-                files: ['*.html', '_includes/*.html', '_layouts/*.html', '*/*.html'],
+                files: ['*.html', '_includes/*.html', '_layouts/*.html', '*/*.html','*.md'],
                 tasks: ['jekyll'],
                 options: {
                     spawn: false,
@@ -63,7 +71,7 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     port: 4000,
-                    base: '_site'
+                    base: './_site'
                 }
             }
         },

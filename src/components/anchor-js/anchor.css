@@ -62,8 +62,9 @@
 .anchorjs-link:active  { color: #EC7963; }
 
 .anchorjs-icon {
-  font-size: 90%;
-  padding-left: 6px;
+  font-size: 70%;
+  padding-left: 0px;
+  margin-left: 0.5em;
 }
 
 .anchorjs-icon:before {

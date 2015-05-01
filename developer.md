@@ -1,22 +1,14 @@
 ---
 layout: page
-title: Developer
+title: developer
 permalink: /developer/
 ---
 
-# Hypenotic Developer Handbook
+# Developer Guide
 
 Developer guidelines and process for Hypenotic and freelancers.
 
-* [Development tools/services](#development-tools-we-use)
-* [Git Workflow](#git-workflow)
-* [HTML/CSS](#htmlcss)
-* [Sass](#scss)
-* [Javascript](#javascript)
-* [Python and Django](#python-and-django)
-* [Wordpress](#wordpress)
-
-## Development tools/services we use
+## Development Tools
 
 * [Bourbon](http://bourbon.io) - Sass library
 * [Bower](http://bower.io) - Package manager
@@ -27,7 +19,7 @@ Developer guidelines and process for Hypenotic and freelancers.
 * [Neat](http://neat.bourbon.io) - Grid layout
 * [phantomCSS](http://css-tricks.com/automating-css-regression-testing) - Automated CSS regression testing - _COMING SOON_
 
-## Typical Developer Setup
+## Typical Setup
 
 #### Initial system setup:
 
@@ -43,7 +35,7 @@ Developer guidelines and process for Hypenotic and freelancers.
 4. Next, make sure you have Gulp installed by running ```gulp -v```. If nothing appears, install globally by running ```npm install --global gulp```
 
 #### Project setup:
-1. Navigate to ```.../wordpress/wp-content/themes/my-theme```
+1. Navigate to your site root or themes directory
 2. Install Bower packages by running ```bower install```
 3. Install Gulp by running ```npm install gulp```. You may have to run ```sudo npm install gulp``` depending on how your system is setup
 4. Load all devDependencies by running ```sudo npm install gulp-uglifyjs gulp-plumber gulp-ruby-sass gulp-imagemin imagemin-pngquant gulp-cached gulp-livereload gulp-notify gulp-jshint gulp-bower```
@@ -103,11 +95,12 @@ Here are a couple of rules to keep you safe when rebasing:
 * Never rebase anything that has been pushed to the remote. Is the branch you're on only local? Then it is good to rebase. Otherwise, no rebasing.
 * Rebase shared branches in local branches. ```develop``` is a shared branch. ```my‑awesome-feature``` is a local branch. Now I'm ready to merge ```my‑awesome‑feature``` into ```develop```, but I want to make sure any changes that have happened in ```develop``` are merged into my feature branch first:
 
+
 ```
 git checkout my-feature
 git rebase develop
 git checkout develop
-git merge my-feature
+git merge my‑awesome-feature
 ```
 
 #### Peer Review
@@ -131,7 +124,7 @@ To make a hotfix, branch off ```master```, make the fix, then do a non-fast-forw
 All CSS and HTML will follow the [Google Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
 ## SCSS File Structure
-Borrowed from [Architecture for a Sass Project](http://www.sitepoint.com/architecture-sass-project/)
+Borrowed from [Architecture for a Sass Project](e)
 
 _Break Into As Many Small Files As Makes Sense_
 There is no penalty to splitting into many small files. Do it as much as feels good to the project. I know I find it easier to jump to small specific files and navigate through them than fewer/larger ones.
@@ -139,9 +132,10 @@ There is no penalty to splitting into many small files. Do it as much as feels g
 When planning your CSS architecture, folders are essential: you don’t just drop every Sass file into the same folder, you categorize them.
 
 Here’s how we recommend organizing your files:
+
 ```
-sass/ 
-| 
+sass/
+|
 |– base/ 
 |   |– _reset.scss       # Reset/normalize 
 |   |– _typography.scss  # Typography rules 
@@ -190,6 +184,7 @@ sass/
 ```
 
 As you can see, there is only one Sass file at the root level: style.scss. All the other files are divided into appropriate folders and prefixed with an underscore (_) to tell Sass they are partial .scss files that shouldn’t be compiled to .css files. Indeed, it is the style.scss file’s role to import and merge all of those.
+
 
 ####Base
 
@@ -260,26 +255,28 @@ _Example:_
 * No nesting should be longer than 50 lines
 * If Variables or Mixins are used in more than one file then they should go in a _variables or _mixins file, otherwise at the top of the file they are used in
 * All vendor prefixes should use mixins
-* All colors should be variables, variable names should describe the function not the color. We use a two-tier system, with both functional and descriptive variable names. 
+* All colors should be variables, variable names should describe the function not the color. We use a two-tier system, with both functional and descriptive variable names.
 
-```css
+```
 // first we set descriptive variables:
 $darkgrey: #333333;
 $blue: #001eff;
- 
+
 // then we set functional variables:
 $text_color: $darkgrey;
 $link_color: $lightblue;
 $border_color: $lightblue;
- 
+
 .myClass {
- 	color: $text_color;
-  	border-color: $border_color;
-}
+	color: $text_color;
+	border-color: $border_color;
+	}
 a {
-  	color: $link_color;
+	color: $link_color;
 }
 ```
+
+
 * List @extend(s) First. This way it is clear that this class inherits another whole set of rules from elsewhere else.
 * List "Regular" styles next
 * Next list @include statements
@@ -287,15 +284,17 @@ a {
 
 Example
 
-	.form-button {
-		@extents %button;
-		background: $light-blue;
-		@include transition( all 0.3s ease );
-		> a {
-			border: 1px solid $border_color;
-			@include transform(rotate( 90deg ));
-		}
+```	scss
+.form-button {
+	@extents %button;
+	background: $light-blue;
+	@include transition( all 0.3s ease );
+	> a {
+		border: 1px solid $border_color;
+		@include transform(rotate( 90deg ));
 	}
+}
+```
 
 #### CSS
 ---
