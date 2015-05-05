@@ -1,0 +1,9 @@
+.sidenav {
+    @include media($bp-large) {
+        @include span-columns(3);
+    }
+    .menu li {
+        @include pad(0.6rem 0 0.6rem 0);
+        border-bottom: 1px solid $base-horizontal-rule;
+    }
+}

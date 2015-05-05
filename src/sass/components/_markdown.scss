@@ -1,651 +1,693 @@
-@font-face {
-  font-family: octicons-anchor;
-  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
-}
+// GitHub Flavored Markdown
+// ================================
+//
+// *View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
+//
+// Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:
+//
+// Roses are red
+// Violets are blue
+//
+// The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
+//
+// Roses are red
+// Violets are blue
+//
+// Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
+//
+// A bit of the GitHub spice
+// -------------------------
+//
+// In addition to the changes in the previous section, certain references are auto-linked:
+//
+// * SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+// * User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+// * User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+// * \#Num: #1
+// * User/#Num: mojombo#1
+//   * SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+//   * User@SHA ref: mojombo@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+//   * User/Project@SHA: mojombo/god@be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2
+//   * \#Num: #1
+//   * User/#Num: mojombo#1
+// * User/Project#Num: mojombo/god#1
+//
+// These are dangerous goodies though, and we need to make sure email addresses don't get mangled:
+//
+// My email addy is tom@github.com.
+//
+// Good rules
+// -------------
+//
+// Actually there's nothing wrong with this `<hr>`
+//
+// ---
+//
+// A mathematician is a device for turning coffee into theorems
+// -------------------------------
+//
+// In first grade I learned that 5 > 3 and 2 < 7. Maybe some arrows. 1 -> 2 -> 3. 9 <- 8 <- 7.
+//
+// Triangles man! a^2 + b^2 = c^2
+//
+// We all like making lists
+// ------------------------
+//
+// The above header should be an H2 tag. Now, for a list of fruits:
+//
+// * Red Apples
+// * Purple Grapes
+// * Green Kiwifruits
+//
+// Let's get crazy:
+//
+// 1.  This is a list item with two paragraphs. Lorem ipsum dolor
+//     sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+//     mi posuere lectus.
+//
+//     Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+//     vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+//     sit amet velit.
+//
+// 2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+//
+// What about some code **in** a list? That's insane, right?
+//
+// 1. In Ruby you can map like this:
+//
+//         ['a', 'b'].map { |x| x.uppercase }
+//
+// 2. In Rails, you can do a shortcut:
+//
+//         ['a', 'b'].map(&:uppercase)
+//
+// Some people seem to like definition lists
+//
+// <dl>
+//   <dt>Lower cost</dt>
+//   <dd>The new version of this product costs significantly less than the previous one!</dd>
+//   <dt>Easier to use</dt>
+//   <dd>We've changed the product so that it's much easier to use!</dd>
+// </dl>
+//
+// I am a robot
+// ------------
+//
+// Maybe you want to print `robot` to the console 1000 times. Why not?
+//
+//     def robot_invasion
+//       puts("robot " * 1000)
+//     end
+//
+// You see, that was formatted as code because it's been indented by four spaces.
+//
+// How about we throw some angle braces and ampersands in there?
+//
+//     <div class="footer">
+//         &copy; 2004 Foo Corporation
+//     </div>
+//
+// Set in stone
+// ------------
+//
+// Playing the blame game
+// ----------------------
+//
+// If you need to blame someone, the best way to do so is by quoting them:
+//
+// > I, at any rate, am convinced that He does not throw dice.
+//
+// Or perhaps someone a little less eloquent:
+//
+// > I wish you'd have given me this written question ahead of time so I
+// > could plan for it... I'm sure something will pop into my head here in
+// > the midst of this press conference, with all the pressure of trying to
+// > come up with answer, but it hadn't yet...
+// >
+// > I don't want to sound like
+// > I have made no mistakes. I'm confident I have. I just haven't - you
+// > just put me under the spot here, and maybe I'm not as quick on my feet
+// > as I should be in coming up with one.
+//
+// Table for two
+// -------------
+//
+// <table>
+//   <tr>
+//     <th>ID</th><th>Name</th><th>Profession</th>
+//   </tr>
+//   <tr>
+//     <td>1</td><td>Beethoven</td><td>Composer</td>
+//   </tr>
+//   <tr>
+//     <td>2</td><td>Beethoven (the dog)</td><td>Dog</td>
+//   </tr>
+// </table>
+//
+// Crazy linking action
+// --------------------
+//
+// I get 10 times more traffic from [Google] [1] than from
+// [Yahoo] [2] or [MSN] [3].
+//
+//   [1]: http://google.com/        "Google"
+//   [2]: http://search.yahoo.com/  "Yahoo Search"
+//   [3]: http://search.msn.com/    "MSN Search"
+//
+//
+// # Header 1
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ## Header 2
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ### Header 3
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// #### Header 4
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ##### Header 5
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// ###### Header 6
+//
+// Bacon ipsum dolor sit amet cillum tail ea sint dolor veniam ```sirloin``` laborum hamburger fugiat mollit exercitation consectetur. Beef ribs leberkas fugiat, minim velit ball tip ham hock deserunt anim aliqua cillum ut officia sint. Shankle filet mignon t-bone laboris nulla. Sunt pig ham hock nulla biltong capicola tempor reprehenderit, swine pariatur flank doner pancetta. Cupidatat leberkas esse andouille magna prosciutto chicken. Non fugiat dolor, shank nulla swine sausage. Ut short loin kielbasa tail pork belly salami veniam sed eiusmod est enim drumstick strip steak brisket.
+//
+// Ode to Code
+// -----------
+//
+// ### Code block
+//
+// ``` coffeescript
+//  ameta.append('span')
+//           .attr('class', 'cmeta')
+//           .html((d) -> "<a class='cmt' href='../commits?author=#{d.author.login}'>#{$.commafy(d.cmts)} commits</a> / <span class='a'>#{$.commafy(d.adds)} ++</span> / <span class='d'>#{$.commafy(d.dels)} --</span>")
+//
+//         svg = person.append('svg')
+//           .attr('width', sparkw + (padl + padr))
+//           .attr('height', sparkh + padt + padb)
+//           .attr('class', 'spark')
+//           .append('g')
+//             .attr('transform', "translate(#{padl},#{padt})")
+//
+//         svg.append("g")
+//           .attr("class", "x axis")
+//           .attr("transform", "translate(0, #{sparkh - padt - padb})")
+//           .call(xAxis)
+//         .selectAll('.x.axis g text')
+//           .style('display', (d, i) -> if i % 2 != 0 then 'none' else 'block')
+//
+//         yax = svg.append("g")
+//           .attr("class", "y axis")
+//           .call(yAxis)
+//         .selectAll('.y.axis g text')
+//           .attr('dx', sparkw / 2)
+//           .style('display', (d, i) -> if i == 0 then 'none' else 'block')
+//           .classed 'midlabel', true
+// ```
+//
+// ### Single tick with spaces
+//
+// `You can use the HTML5 custom data attributes by passing the values inside a data hash. For example: data =&gt; { :something =&gt; "bla bla bla", :confirm =&gt; "You sure?" }`
+//
+// ### Multiple single ticks
+//
+// `2012-03-28 09:19:58.0908|INFO|FileLogger|Processing xml: <Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='MSSQLSERVER'/><EventID Qualifiers='49152'>18456</EventID><Level>0</Level><Task>4</Task><Keywords>0x90000000000000</Keywords><TimeCreated SystemTime='2012-03-28T13:19:58.000000000Z'/><EventRecordID>399270</EventRecordID><Channel>Application</Channel><Computer>dallas</Computer><Security/></System><EventData><Data>sa</Data><Data> Reason: Password did not match that for the login provided.</Data><Data> [CLIENT: 118.186.64.242]</Data><Binary>184800000E00000007000000440041004C004C00410053000000070000006D00610073007400650072000000</Binary></EventData></Event>`
+//
+// `2012-03-28 09:19:58.0908|INFO|FileLogger|No regex, so counting as a match sdf sdf sdf sdfsd lksdfj lksjdf lksjdf lksdjf lksjdf lsdfj werwer werwer`
+//
+// ### Unbroken single tick
+//
+// `longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong`
+//
+// ### Unbroken triple tick
+//
+// ``` ruby
+// longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong
+// ```
+//
+// ### Single tick between a block of text that wraps
+//
+// this is a line with some text and `inline code test test test test test test test test test test test test test test test test test test test test  test test test test` and more text here
+//
+// ### Single tick between a block of text that doesn't wrap
+//
+// this is some text, `and this is some code`, lines don't break, they do what they're told
+//
+// Styleguide 4.0
 
+
+// All of our block level items should have the same margin
+$margin: 16px;
+
+// This is styling for generic markdownized text. Anything you put in a
+// container with .markdown-body on it should render generally well. It also
+// includes some GitHub Flavored Markdown specific styling (like @mentions)
 .markdown-body {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  color: #333;
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
-}
 
-.markdown-body a {
-  background: transparent;
-}
-
-.markdown-body a:active,
-.markdown-body a:hover {
-  outline: 0;
-}
-
-.markdown-body strong {
-  font-weight: bold;
-}
-
-.markdown-body h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-.markdown-body img {
-  border: 0;
-}
-
-.markdown-body hr {
-  box-sizing: content-box;
-  height: 0;
-}
-
-.markdown-body pre {
-  overflow: auto;
-}
-
-.markdown-body code,
-.markdown-body kbd,
-.markdown-body pre {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-.markdown-body input {
-  color: inherit;
-  font: inherit;
-  margin: 0;
-}
-
-.markdown-body html input[disabled] {
-  cursor: default;
-}
-
-.markdown-body input {
-  line-height: normal;
-}
-
-.markdown-body input[type="checkbox"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-.markdown-body table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-.markdown-body td,
-.markdown-body th {
-  padding: 0;
-}
-
-.markdown-body * {
-  box-sizing: border-box;
-}
-
-.markdown-body input {
-  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-}
-
-.markdown-body a {
-  color: #4183c4;
-  text-decoration: none;
-  .developer & {
-    color: red;
+  > *:first-child {
+    margin-top: 0 !important;
   }
-}
-
-.markdown-body a:hover,
-.markdown-body a:active {
-  text-decoration: underline;
-}
-
-.markdown-body hr {
-  height: 0;
-  margin: 15px 0;
-  overflow: hidden;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid #ddd;
-}
-
-.markdown-body hr:before {
-  display: table;
-  content: "";
-}
-
-.markdown-body hr:after {
-  display: table;
-  clear: both;
-  content: "";
-}
-
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  line-height: 1.1;
-}
-
-.markdown-body h1 {
-  font-size: 30px;
-}
-
-.markdown-body h2 {
-  font-size: 21px;
-}
-
-.markdown-body h3 {
-  font-size: 16px;
-}
-
-.markdown-body h4 {
-  font-size: 14px;
-}
-
-.markdown-body h5 {
-  font-size: 12px;
-}
-
-.markdown-body h6 {
-  font-size: 11px;
-}
-
-.markdown-body blockquote {
-  margin: 0;
-}
-
-.markdown-body ul,
-.markdown-body ol {
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.markdown-body ol ol,
-.markdown-body ul ol {
-  list-style-type: lower-roman;
-}
-
-.markdown-body ul ul ol,
-.markdown-body ul ol ol,
-.markdown-body ol ul ol,
-.markdown-body ol ol ol {
-  list-style-type: lower-alpha;
-}
-
-.markdown-body dd {
-  margin-left: 0;
-}
-
-.markdown-body code {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  font-size: 12px;
-}
-
-.markdown-body pre {
-  margin-top: 0;
-  margin-bottom: 0;
-  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-}
-
-.markdown-body .octicon {
-  font: normal normal normal 16px/1 octicons-anchor;
-  display: inline-block;
-  text-decoration: none;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.markdown-body .octicon-link:before {
-  content: '\f05c';
-}
-
-.markdown-body>*:first-child {
-  margin-top: 0 !important;
-}
-
-.markdown-body>*:last-child {
-  margin-bottom: 0 !important;
-}
-
-.markdown-body a:not([href]) {
-  color: inherit;
-  text-decoration: none;
-}
-
-.markdown-body .anchor {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  padding-right: 6px;
-  padding-left: 30px;
-  margin-left: -30px;
-}
-
-.markdown-body .anchor:focus {
-  outline: none;
-}
-
-.markdown-body h1,
-.markdown-body h2,
-.markdown-body h3,
-.markdown-body h4,
-.markdown-body h5,
-.markdown-body h6 {
-  position: relative;
-  margin-top: 1em;
-  margin-bottom: 16px;
-  font-weight: bold;
-  line-height: 1.4;
-}
-
-.markdown-body h1 .octicon-link,
-.markdown-body h2 .octicon-link,
-.markdown-body h3 .octicon-link,
-.markdown-body h4 .octicon-link,
-.markdown-body h5 .octicon-link,
-.markdown-body h6 .octicon-link {
-  display: none;
-  color: #000;
-  vertical-align: middle;
-}
-
-.markdown-body h1:hover .anchor,
-.markdown-body h2:hover .anchor,
-.markdown-body h3:hover .anchor,
-.markdown-body h4:hover .anchor,
-.markdown-body h5:hover .anchor,
-.markdown-body h6:hover .anchor {
-  padding-left: 8px;
-  margin-left: -30px;
-  text-decoration: none;
-}
-
-.markdown-body h1:hover .anchor .octicon-link,
-.markdown-body h2:hover .anchor .octicon-link,
-.markdown-body h3:hover .anchor .octicon-link,
-.markdown-body h4:hover .anchor .octicon-link,
-.markdown-body h5:hover .anchor .octicon-link,
-.markdown-body h6:hover .anchor .octicon-link {
-  display: inline-block;
-}
-
-.markdown-body h1 {
-  padding-bottom: 0.3em;
-  font-size: 2.25em;
-  line-height: 1.2;
-  border-bottom: 1px solid #eee;
-}
-
-.markdown-body h1 .anchor {
-  line-height: 1;
-}
-
-.markdown-body h2 {
-  padding-bottom: 0.3em;
-  font-size: 1.75em;
-  line-height: 1.225;
-  border-bottom: 1px solid #eee;
-}
-
-.markdown-body h2 .anchor {
-  line-height: 1;
-}
-
-.markdown-body h3 {
-  font-size: 1.5em;
-  line-height: 1.43;
-}
-
-.markdown-body h3 .anchor {
-  line-height: 1.2;
-}
-
-.markdown-body h4 {
-  font-size: 1.25em;
-}
-
-.markdown-body h4 .anchor {
-  line-height: 1.2;
-}
-
-.markdown-body h5 {
-  font-size: 1em;
-}
-
-.markdown-body h5 .anchor {
-  line-height: 1.1;
-}
-
-.markdown-body h6 {
-  font-size: 1em;
-  color: #777;
-}
-
-.markdown-body h6 .anchor {
-  line-height: 1.1;
-}
-
-.markdown-body p,
-.markdown-body blockquote,
-.markdown-body ul,
-.markdown-body ol,
-.markdown-body dl,
-.markdown-body table,
-.markdown-body pre {
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-
-.markdown-body hr {
-  height: 4px;
-  padding: 0;
-  margin: 16px 0;
-  background-color: #e7e7e7;
-  border: 0 none;
-}
-
-.markdown-body ul,
-.markdown-body ol {
-  padding-left: 2em;
-}
-
-.markdown-body ul ul,
-.markdown-body ul ol,
-.markdown-body ol ol,
-.markdown-body ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.markdown-body li>p {
-  margin-top: 16px;
-}
-
-.markdown-body dl {
-  padding: 0;
-}
-
-.markdown-body dl dt {
-  padding: 0;
-  margin-top: 16px;
-  font-size: 1em;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.markdown-body dl dd {
-  padding: 0 16px;
-  margin-bottom: 16px;
-}
-
-.markdown-body blockquote {
-  padding: 0 15px;
-  color: #777;
-  border-left: 4px solid #ddd;
-}
-
-.markdown-body blockquote>:first-child {
-  margin-top: 0;
-}
-
-.markdown-body blockquote>:last-child {
-  margin-bottom: 0;
-}
-
-.markdown-body table {
-  display: block;
-  width: 100%;
-  overflow: auto;
-  word-break: normal;
-  word-break: keep-all;
-}
-
-.markdown-body table th {
-  font-weight: bold;
-}
-
-.markdown-body table th,
-.markdown-body table td {
-  padding: 6px 13px;
-  border: 1px solid #ddd;
-}
-
-.markdown-body table tr {
-  background-color: #fff;
-  border-top: 1px solid #ccc;
-}
-
-.markdown-body table tr:nth-child(2n) {
-  background-color: #f8f8f8;
-}
-
-.markdown-body img {
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.markdown-body code {
-  padding: 0;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  margin: 0;
-  font-size: 85%;
-  background-color: rgba(0,0,0,0.04);
-  border-radius: 3px;
-}
-
-.markdown-body code:before,
-.markdown-body code:after {
-  letter-spacing: -0.2em;
-  content: "\00a0";
-}
-
-.markdown-body pre>code {
-  padding: 0;
-  margin: 0;
-  font-size: 100%;
-  word-break: normal;
-  white-space: pre;
-  background: transparent;
-  border: 0;
-}
-
-.markdown-body .highlight {
-  margin-bottom: 16px;
-}
-
-.markdown-body .highlight pre,
-.markdown-body pre {
-  padding: 16px;
-  overflow: auto;
-  font-size: 85%;
-  line-height: 1.45;
-  background-color: #f7f7f7;
-  border-radius: 3px;
-}
-
-.markdown-body .highlight pre {
-  margin-bottom: 0;
-  word-break: normal;
-}
-
-.markdown-body pre {
-  word-wrap: normal;
-}
-
-.markdown-body pre code {
-  display: inline;
-  max-width: initial;
-  padding: 0;
-  margin: 0;
-  overflow: initial;
-  line-height: inherit;
-  word-wrap: normal;
-  background-color: transparent;
-  border: 0;
-}
-
-.markdown-body pre code:before,
-.markdown-body pre code:after {
-  content: normal;
-}
-
-.markdown-body kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 11px;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb;
-}
-
-.markdown-body .pl-c {
-  color: #969896;
-}
-
-.markdown-body .pl-c1,
-.markdown-body .pl-s .pl-v {
-  color: #0086b3;
-}
-
-.markdown-body .pl-e,
-.markdown-body .pl-en {
-  color: #795da3;
-}
-
-.markdown-body .pl-s .pl-s1,
-.markdown-body .pl-smi {
-  color: #333;
-}
-
-.markdown-body .pl-ent {
-  color: #63a35c;
-}
-
-.markdown-body .pl-k {
-  color: #a71d5d;
-}
-
-.markdown-body .pl-pds,
-.markdown-body .pl-s,
-.markdown-body .pl-s .pl-pse .pl-s1,
-.markdown-body .pl-sr,
-.markdown-body .pl-sr .pl-cce,
-.markdown-body .pl-sr .pl-sra,
-.markdown-body .pl-sr .pl-sre {
-  color: #183691;
-}
-
-.markdown-body .pl-v {
-  color: #ed6a43;
-}
-
-.markdown-body .pl-id {
-  color: #b52a1d;
-}
-
-.markdown-body .pl-ii {
-  background-color: #b52a1d;
-  color: #f8f8f8;
-}
-
-.markdown-body .pl-sr .pl-cce {
-  color: #63a35c;
-  font-weight: bold;
-}
-
-.markdown-body .pl-ml {
-  color: #693a17;
-}
-
-.markdown-body .pl-mh,
-.markdown-body .pl-mh .pl-en,
-.markdown-body .pl-ms {
-  color: #1d3e81;
-  font-weight: bold;
-}
-
-.markdown-body .pl-mq {
-  color: #008080;
-}
-
-.markdown-body .pl-mi {
-  color: #333;
-  font-style: italic;
-}
-
-.markdown-body .pl-mb {
-  color: #333;
-  font-weight: bold;
-}
-
-.markdown-body .pl-md {
-  background-color: #ffecec;
-  color: #bd2c00;
-}
-
-.markdown-body .pl-mi1 {
-  background-color: #eaffea;
-  color: #55a532;
-}
-
-.markdown-body .pl-mdr {
-  color: #795da3;
-  font-weight: bold;
-}
-
-.markdown-body .pl-mo {
-  color: #1d3e81;
-}
-
-.markdown-body kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb;
-}
-
-.markdown-body .task-list-item {
-  list-style-type: none;
-}
-
-.markdown-body .task-list-item+.task-list-item {
-  margin-top: 3px;
-}
-
-.markdown-body .task-list-item input {
-  margin: 0 0.35em 0.25em -1.6em;
-  vertical-align: middle;
-}
-
-.markdown-body :checked+.radio-label {
-  z-index: 1;
-  position: relative;
-  border-color: #4183c4;
+
+  > *:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  // Anchors like <a name="examples">. These sometimes end up wrapped around
+  // text when users mistakenly forget to close the tag or use self-closing tag
+  // syntax. We don't want them to appear like links.
+  // FIXME: a:not(:link):not(:visited) would be a little clearer here (and
+  // possibly faster to match), but it breaks styling of <a href> elements due
+  // to https://bugs.webkit.org/show_bug.cgi?id=142737.
+  a:not([href]) {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  // Link Colors
+  .absent {
+    color: #c00;
+  }
+
+  .anchor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding-right: 6px;
+    padding-left: 30px;
+    margin-left: -30px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  // Headings
+  h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    margin-top: 1em;
+    margin-bottom: $margin;
+    font-weight: bold;
+    line-height: 1.4;
+
+    .octicon-link {
+      display: none;
+      color: #000;
+      vertical-align: middle;
+    }
+
+    &:hover .anchor {
+      padding-left: 8px;
+      margin-left: -30px;
+      text-decoration: none;
+
+      .octicon-link {
+        display: inline-block;
+      }
+    }
+
+    tt,
+    code {
+      font-size: inherit;
+    }
+  }
+
+  h1 {
+    padding-bottom: 0.3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+
+    .anchor {
+      line-height: 1;
+    }
+  }
+
+  h2 {
+    padding-bottom: 0.3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+
+    .anchor {
+      line-height: 1;
+    }
+  }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+
+    .anchor {
+      line-height: 1.2;
+    }
+  }
+
+  h4 {
+    font-size: 1.25em;
+
+    .anchor {
+      line-height: 1.2;
+    }
+  }
+
+  h5 {
+    font-size: 1em;
+
+    .anchor {
+      line-height: 1.1;
+    }
+  }
+
+  h6 {
+    font-size: 1em;
+    color: #777;
+
+    .anchor {
+      line-height: 1.1;
+    }
+  }
+
+  p,
+  blockquote,
+  ul, ol, dl,
+  table,
+  pre {
+    margin-top: 0;
+    margin-bottom: $margin;
+  }
+
+  hr {
+    height: 4px;
+    padding: 0;
+    margin: $margin 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+  }
+
+  // Lists, Blockquotes & Such
+  ul,
+  ol {
+    padding-left: 2em;
+
+    &.no-list {
+      padding: 0;
+      list-style-type: none;
+    }
+  }
+
+  // Did someone complain about list spacing? Encourage them
+  // to create the spacing with their markdown formatting.
+  // List behavior should be controled by the markup, not the css.
+  //
+  // For lists with padding between items, use blank
+  // lines between items. This will generate paragraphs with
+  // padding to space things out.
+  //
+  // - item
+  //
+  // - item
+  //
+  // - item
+  //
+  // For list without padding, don't use blank lines.
+  //
+  // - item
+  // - item
+  // - item
+  //
+  // Modifying the css to emulate these behaviors merely brakes
+  // one case in the process of solving another. Don't change
+  // this unless it's really really a bug.
+  ul ul,
+  ul ol,
+  ol ol,
+  ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li > p {
+    margin-top: $margin;
+  }
+
+  dl {
+    padding: 0;
+  }
+
+  dl dt {
+    padding: 0;
+    margin-top: $margin;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  dl dd {
+    padding: 0 $margin;
+    margin-bottom: $margin;
+  }
+
+  blockquote {
+    padding: 0 15px;
+    color: #777;
+    border-left: 4px solid #ddd;
+
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // Tables
+  table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all; // For Firefox to horizontally scroll wider tables.
+
+    th {
+      font-weight: bold;
+    }
+
+    th, td {
+      padding: 6px 13px;
+      border: 1px solid #ddd;
+    }
+
+    tr {
+      background-color: #fff;
+      border-top: 1px solid #ccc;
+
+      &:nth-child(2n) {
+        background-color: #f8f8f8;
+      }
+    }
+  }
+
+  // Images & Stuff
+  img {
+    max-width: 100%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .emoji {
+    max-width: none;
+  }
+
+  // Gollum Image Tags
+
+  // Framed
+  span.frame {
+    display: block;
+    overflow: hidden;
+
+    & > span {
+      display: block;
+      float: left;
+      width: auto;
+      padding: 7px;
+      margin: 13px 0 0;
+      overflow: hidden;
+      border: 1px solid #ddd;
+    }
+
+    span img {
+      display: block;
+      float: left;
+    }
+
+    span span {
+      display: block;
+      padding: 5px 0 0;
+      clear: both;
+      color: #333;
+    }
+  }
+
+  span.align-center {
+    display: block;
+    overflow: hidden;
+    clear: both;
+
+    & > span {
+      display: block;
+      margin: 13px auto 0;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    span img {
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+
+  span.align-right {
+    display: block;
+    overflow: hidden;
+    clear: both;
+
+    & > span {
+      display: block;
+      margin: 13px 0 0;
+      overflow: hidden;
+      text-align: right;
+    }
+
+    span img {
+      margin: 0;
+      text-align: right;
+    }
+  }
+
+  span.float-left {
+    display: block;
+    float: left;
+    margin-right: 13px;
+    overflow: hidden;
+
+    span {
+      margin: 13px 0 0;
+    }
+  }
+
+  span.float-right {
+    display: block;
+    float: right;
+    margin-left: 13px;
+    overflow: hidden;
+
+    & > span {
+      display: block;
+      margin: 13px auto 0;
+      overflow: hidden;
+      text-align: right;
+    }
+  }
+
+  // Inline code snippets
+  code,
+  tt {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(0,0,0,0.04);
+    border-radius: 3px; // don't add padding, gives scrollbars
+
+    &:before,
+    &:after {
+      letter-spacing: -0.2em; // this creates padding
+      content: "\00a0";
+    }
+
+    br { display: none; }
+  }
+
+  del code { text-decoration: inherit; }
+
+  // Code tags within code blocks (<pre>s)
+  pre > code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  .highlight {
+    margin-bottom: $margin;
+  }
+
+  .highlight pre,
+  pre {
+    padding: $margin;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+  }
+
+  .highlight pre {
+    margin-bottom: 0;
+    word-break: normal;
+  }
+
+  pre {
+    word-wrap: normal;
+  }
+
+  pre code,
+  pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+
+    &:before,
+    &:after {
+      content: normal;
+    }
+  }
+
+  kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fcfcfc;
+    border: solid 1px #ccc;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #bbb;
+  }
 }

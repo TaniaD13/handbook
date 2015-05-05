@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="util">
-    <div style="float:right;">
+    <div class="edit">
         <span class="octicon octicon-pencil"></span>
         <a href="http://prose.io/#{{site.repo}}/edit/{{site.branch}}/{{ page.path }}" target="_blank"> Improve this page</a>
     </div>
@@ -19,7 +19,7 @@ layout: default
     <span class="time">{{ readtime }}</span> minute read
 </div>
 
-<div class="main" style="margin-top: 2rem;">
+<div class="main">
     {% unless page.title == "aasdbout" %}
     <div class="sidenav">
         {% include sidenav.html %}

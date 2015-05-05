@@ -17,28 +17,25 @@ $(function(){
 
 	//Clone all h2 tags, append to sidenav and wrap with <li> tag
 	var sidenav = $("h2").clone();
-	$(sidenav).appendTo(".menu ul").wrap("<li>");
+	$(sidenav).appendTo(".menu ul").wrap('<li><a class="item">');
 
-	//Remove unwanted html and classes
+	//Remove html and classes
 	$("nav h2").contents().unwrap();
 	$("nav .anchorjs-description").remove();
 	$("nav .anchorjs-icon").remove();
+	$("nav .anchorjs-link").remove();
 
-	//$( ".anchorjs-link" ).after( $( ".menu li" ) );
 
 
+	//Get all href values and append to .item
+	$(".anchorjs-link").each(function() {
+      	var anchorLink = $(this).attr("href");
+      	console.log(anchorLink);
+      	var link = $("href");
+
+		$(".menu a").attr(link, anchorLink);	
+     });
 });
 
 
 </script>
-
-<!--
-
-<nav class="menu">
-  <ul>
-
-  <li>
-  <li>Development Tools<a class="anchorjs-link" href="#development-tools"></a></li>
-  </li>
-
-  -->

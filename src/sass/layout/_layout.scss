@@ -1,91 +1,6 @@
-.home { background-color: #4183c4; }
-
-.intro {
-    position: absolute;
-    top: 40%;
-    transform: translateY(-40%);
-    color: white;
-    h1 {
-        font-size: 3.5rem;
-        font-weight: normal;
-    }
-}
-
-.masthead {
-    background-color: #4183c4;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    .developer & { background-color: #CE6059; }
-    .designer & { background-color: #1E8146; }
-    .customerservice & { background-color: #6F7722; }
-    .qa & { background-color: #1C4A77; }
-    .project & { background-color: #869122; }
-    a {
-        color: rgba(255,255,255,0.5);
-        &:hover {
-            color: rgba(255,255,255,1);
-        }
-    }
-    .masthead-inner {
-        @include outer-container;
-        @include pad(1rem 2rem 1rem 2rem);
-    }
-}
-
-.masthead .masthead-logo {
-    color: #fff;
-    display: inline-block;
-    font-size: 1.7rem;
-    margin-top: -.1rem;   
-}
-
-.masthead-nav {
-    float: right;
-    margin-top: .6rem;
-    font-size: 1rem;
-    & a:not(:last-child) {
-        margin-right: 1.25rem;
-    }
-}
-
-.markdown-body a {
-    .developer & {
-        color: #CE6059;
-    }
-    .designer & {
-        color: #1E8146;
-    }
-    .customerservice & {
-        color: #6F7722;
-    }
-    .qa & {
-        color: #1C4A77;
-    }
-    .project & {
-        color: #869122;
-    }
-}
-
 .wrapper {
     @include outer-container;
     @include pad(null 2rem null 2rem);
-}
-
-.fade { opacity: 0.6; }
-
-a { text-decoration: none; }
-
-.sidenav {
-    @include media($bp-large) {
-        @include span-columns(3);
-    }
-    .menu li {
-        list-style-type: none;
-        padding-bottom: .3rem;
-        padding-top: .3rem;
-        border-bottom: 1px solid #ccc;
-    }
 }
 
 .content {
@@ -96,21 +11,6 @@ a { text-decoration: none; }
     }
 }
 
-footer {
-    margin-top: 3em;
-    padding-top: 2em;
-    border-top: 1px solid #ccc;
-    @include media($bp-large) {
-        @include span-columns(12);
-    }  
-}
-
-.util {
-    margin-top: 5rem;
-    margin-bottom: 1.5em;
-    opacity: 0.4;
-    @include media($bp-large) {
-        @include shift(4.5);
-        @include span-columns(7.5);
-}
+.main {
+	margin-top: 2rem;
 }

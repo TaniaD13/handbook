@@ -8,7 +8,7 @@
         <nav class="masthead-nav">
             {% for nav in site.data.nav %}
                 {% if page.url == nav.href %}
-                    <a class="active" style="color: white;" href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a>
+                    <a class="active" href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a>
                 {% else %}
                     <a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a>
                 {% endif %}

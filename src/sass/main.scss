@@ -9,6 +9,15 @@
 @import "../components/neat/app/assets/stylesheets/neat";
 
 @import "helpers/variables";
-@import "layout/base";
+@import "base/typography";
+
+@import "layout/aside";
+@import "layout/footer";
 @import "layout/layout";
+@import "layout/masthead";
+@import "layout/util";
+
 @import "components/markdown";
+@import "components/markdown_custom";
+
+@import "pages/home";
