@@ -16,9 +16,8 @@
         </section>
     {% endif %}
 
-    {{ content }}
-
     {% if page.title != "home" %}
+        {{ content }}
         {% include footer.html %}
     {% endif %}
     
