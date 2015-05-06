@@ -8,12 +8,12 @@
 <div class="wrapper">
 
     {% if page.title == "home" %}
-        <div class="intro">
-            <h1>Hype<span class="fade">Guides</span></h1>
+        <section class="intro">
+            <h1>Hype<span>Guides</span></h1>
             <p>The toolkits and guidelines that power Hypenotic projects.</p>
-            <small class="fade">Maintained by your friendly neighbourhood humans at Hypenotic.<br>
-            Created: 25 April 2015 | Last updated: {{ site.time || date_to_long_string}}</small>
-        </div>
+            <small>Maintained by your friendly neighbourhood humans at Hypenotic.<br>
+            Created: 25 April 2015 &#8226; Updated: {{ site.time || date_to_long_string}}</small>
+        </section>
     {% endif %}
 
     {{ content }}
@@ -22,6 +22,51 @@
         {% include footer.html %}
     {% endif %}
     
-</div>
+</div><!--Ends .wrapper-->
+</div><!--End #content-->
+
+<script src="{{ site.baseurl }}/src/js/app.min.js"></script>
+<script>
+    var selector = '.markdown-body h2';
+    addAnchors(selector);
+</script>
+
+<script>
+    $('#button').on('click', function() {
+        $('#content').toggleClass('isOpen');
+        $(this).toggleClass('active');
+    });
+</script>
+
+
+<script>
+$(function(){
+
+    //Clone all h2 tags, append to sidenav and wrap with <li> tag
+    var sidenav = $("h2").clone();
+    $(sidenav).appendTo(".toc").wrap('<li><a class="item">');
+
+    //Remove html and classes
+    $("nav h2").contents().unwrap();
+    $("nav .anchorjs-description").remove();
+    $("nav .anchorjs-icon").remove();
+    $("nav .anchorjs-link").remove();
+
+
+
+    //Get all href values and append to .item
+    $(".anchorjs-link").each(function() {
+        var anchorLink = $(this).attr("href");
+        console.log(anchorLink);
+        var link = $("href");
+
+        $(".toc a").attr(link, anchorLink); 
+     });
+});
+
+
+</script>
+
+
 </body>
 </html>

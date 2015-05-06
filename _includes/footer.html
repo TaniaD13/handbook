@@ -1,41 +1,4 @@
-<footer class="fade">
+<footer>
 	<small>Copyright Hypenotic {{ site.time | date: '%Y' }}.<br>
 	Created and maintained by the humans at Hypenotic. <strong>Currently v{{ site.version }}.</strong></small>
 </footer>
-
-</div>
-
-<script src="{{ site.baseurl }}/src/js/app.min.js"></script>
-<script>
-	var selector = '.markdown-body h2';
- 	addAnchors(selector);
-</script>
-<script>
-
-
-$(function(){
-
-	//Clone all h2 tags, append to sidenav and wrap with <li> tag
-	var sidenav = $("h2").clone();
-	$(sidenav).appendTo(".menu ul").wrap('<li><a class="item">');
-
-	//Remove html and classes
-	$("nav h2").contents().unwrap();
-	$("nav .anchorjs-description").remove();
-	$("nav .anchorjs-icon").remove();
-	$("nav .anchorjs-link").remove();
-
-
-
-	//Get all href values and append to .item
-	$(".anchorjs-link").each(function() {
-      	var anchorLink = $(this).attr("href");
-      	console.log(anchorLink);
-      	var link = $("href");
-
-		$(".menu a").attr(link, anchorLink);	
-     });
-});
-
-
-</script>

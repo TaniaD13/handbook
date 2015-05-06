@@ -19,14 +19,14 @@ layout: default
     <span class="time">{{ readtime }}</span> minute read
 </div>
 
-<div class="main">
+<main>
     {% unless page.title == "aasdbout" %}
-    <div class="sidenav">
+    <aside>
         {% include sidenav.html %}
-    </div>
+    </aside>
     {% endunless %}
         
-    <div class="content markdown-body">
+    <article class="markdown-body">
         {{ content }}
-    </div>
-</div>
+    </article>
+</main>

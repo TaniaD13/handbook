@@ -1,18 +1,27 @@
-<header class="masthead">
-    <div class="masthead-inner">
-        <a href="{{ site.baseurl }}/" class="masthead-logo">
-        <span class="mega-octicon octicon-package"></span>
-        Hype<span class="fade">Guides</span>
-        </a>
+<nav class="mobile">
+    <ul>
+        {% for nav in site.data.nav %}
+            <li><a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
 
-        <nav class="masthead-nav">
-            {% for nav in site.data.nav %}
-                {% if page.url == nav.href %}
-                    <a class="active" href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a>
-                {% else %}
-                    <a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a>
-                {% endif %}
-            {% endfor %}
-        </nav>
-    </div>
-</header>
+<div id="content">
+    <header>
+        <div class="inner">
+            <a href="{{ site.baseurl }}/" class="logo">
+                <span class="mega-octicon octicon-package"></span>
+                Hype<span>Guides</span>
+            </a>
+            <span id="button"></span>
+            <nav class="primary">
+                {% for nav in site.data.nav %}
+                    {% if page.url == nav.href %}
+                        <a class="active" href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a>
+                    {% else %}
+                        <a href="{{ nav.href | prepend: site.baseurl }}">{{ nav.title }}</a>
+                    {% endif %}
+                {% endfor %}
+            </nav>
+        </div>
+    </header>

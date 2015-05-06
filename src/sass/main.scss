@@ -13,11 +13,16 @@
 
 @import "layout/aside";
 @import "layout/footer";
+
+
 @import "layout/layout";
-@import "layout/masthead";
+@import "layout/header";
 @import "layout/util";
 
 @import "components/markdown";
 @import "components/markdown_custom";
 
 @import "pages/home";
+
+@import "vendors/octicons";
+@import "vendors/anchorjs";
