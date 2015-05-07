@@ -11,13 +11,17 @@ body {
 #content {
   //flex: 1;
   box-shadow: 0 0 10px rgba(0,0,0,1);
-  transform: translate3d(0,0,0);
-  transition: transform .3s;
+  //transform: translate3d(0,0,0);
+  @include transform(translate3d(0,0,0));
+  @include transition-property(transform);
+  @include transition-duration(0.3s);
+  //transition: transform .3s;
   background: #fff;
 }
 
 #content.isOpen {
-  transform: translate3d(-260px,0,0); //Change this - to + for left open
+  @include transform(translate3d(-260px,0,0));
+  //transform: translate3d(-260px,0,0); //Change this - to + for left open
 }
 
 .wrapper {

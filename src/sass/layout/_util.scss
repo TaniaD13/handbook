@@ -1,6 +1,8 @@
 .util {
-	@include margin(5rem null 2rem null);
-    @include media($bp-large) {
+	display:none;
+	@include media($bp-large) {
+		display: inline;
+		@include margin(5rem null 2rem null);
         @include shift(4.5);
         @include span-columns(7.5);
     }

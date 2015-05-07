@@ -1,5 +1,7 @@
 aside {
+	display: none;
     @include media($bp-large) {
+    	display: inline;
         @include span-columns(3);
     }
     .toc li {
