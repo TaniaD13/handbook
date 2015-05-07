@@ -8,5 +8,14 @@
     }
     .edit {
     	float: right;
+    	a {
+    		opacity: 0.4;
+    	}
+    	a:hover {
+    		opacity: 1;
+    	}
+    }
+    .time {
+    	opacity: 0.4;
     }
 }

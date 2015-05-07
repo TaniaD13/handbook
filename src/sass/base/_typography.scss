@@ -59,10 +59,19 @@ header nav a {
 
 .logo {
     color: $base-masthead;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
+    @include media($bp-large) {
+        font-size: 1.7rem;
+    }
     span {
         opacity: 0.6;
         font-weight: 300;
+    }
+    .mega-octicon {
+        font-size: 24px;
+        @include media($bp-large) {
+            font-size: 32px;
+        }
     }
 }
 

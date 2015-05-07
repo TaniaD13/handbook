@@ -4,11 +4,12 @@ layout: default
 
 <div class="util">
     <div class="edit">
-        <span class="octicon octicon-pencil"></span>
-        <a href="http://prose.io/#{{site.repo}}/edit/{{site.branch}}/{{ page.path }}" target="_blank"> Improve this page</a>
+        <a href="http://prose.io/#{{site.repo}}/edit/{{site.branch}}/{{ page.path }}" target="_blank">
+            <span class="octicon octicon-pencil"></span>
+            Improve this page
+        </a>
     </div>
 
-    <span class="octicon octicon-clock"></span>
     {% if site.readtime %}
         {% if site.wpm %}
             {% assign readtime = page.content | strip_html | number_of_words | append: '' | divided_by:site.wpm %}
@@ -16,16 +17,13 @@ layout: default
             {% assign readtime = page.content | strip_html | number_of_words | append: '' | divided_by:180 %}
         {% endif %}
     {% endif %}
-    <span class="time">{{ readtime }}</span> minute read
+    <span class="time"><span class="octicon octicon-clock"></span> {{ readtime }} minute read</span>
 </div>
 
 <main>
-    {% unless page.title == "aasdbout" %}
     <aside>
         {% include sidenav.html %}
     </aside>
-    {% endunless %}
-        
     <article class="markdown-body">
         {{ content }}
     </article>
