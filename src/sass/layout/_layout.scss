@@ -10,9 +10,8 @@ body {
 
 #content {
   //flex: 1;
-  box-shadow: 0 0 10px rgba(0,0,0,1);
-  @include transform(translate3d(0,0,0));
-  @include transition-property(transform);
+  //@include transform(translate3d(0,0,0));
+  //@include transition-property(transform);
   @include transition-duration(0.3s);
   background: #fff;
 }

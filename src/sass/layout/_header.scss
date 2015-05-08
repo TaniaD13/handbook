@@ -13,3 +13,10 @@ header {
         @include pad(1rem 2rem 1rem 2rem);
     }
 }
+
+.markdown-body h2:before {
+    content:"";
+    display:block;
+    height:90px; /* fixed header height*/
+    margin:-90px 0 0; /* negative fixed header height */
+}
