@@ -21,3 +21,7 @@ branch: gh-pages
 
 #Exclude
 exclude: [node_modules, gulpfile.js, bower.json, package.json]
+
+prose:
+  rooturl: '_site'
+  siteurl: 'http://hypenotic.github.io/handbook/'
