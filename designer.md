@@ -9,7 +9,7 @@ permalink: /designer/
 *CONTENT COMING SOON*
 
 Designer guidelines and process for Hypenotic and freelancers.
-
+ss
 * [Design tools we use](#development-tools-we-use)
 * [Workflow](#git-workflow)
 * [Best Practices](#best-practices)
