@@ -14,6 +14,7 @@
     position: absolute;
     right: 0; //change to left for left open
     width: 260px;
+    z-index: -1;
     ul {
         list-style-type: none;
     }

@@ -1,10 +1,12 @@
 .util {
 	display:none;
 	@include media($bp-large) {
-		display: inline;
-		@include margin(5rem null 2rem null);
-        @include shift(4.5);
-        @include span-columns(7.5);
+		@include margin(1rem null 2rem null);
+        @include span-columns(12);
+    }
+    .time {
+        @include shift(4);
+        opacity: 0.4;
     }
     .edit {
     	float: right;
@@ -15,7 +17,5 @@
     		opacity: 1;
     	}
     }
-    .time {
-    	opacity: 0.4;
-    }
+    
 }

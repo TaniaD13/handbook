@@ -2,29 +2,29 @@
 layout: default
 ---
 
-<div class="util">
-    <div class="edit">
-        <a href="http://prose.io/#{{site.repo}}/edit/{{site.branch}}/{{ page.path }}" target="_blank">
-            <span class="octicon octicon-pencil"></span>
-            Improve this page
-        </a>
+<section style="margin-top: 4em;">
+    <div class="util">
+        <div class="edit">
+            <a href="http://prose.io/#{{site.repo}}/edit/{{site.branch}}/{{ page.path }}" target="_blank">
+                <span class="octicon octicon-pencil"></span>
+                Improve this page
+            </a>
+        </div>
+
+        {% if site.readtime %}
+            {% if site.wpm %}
+                {% assign readtime = page.content | strip_html | number_of_words | append: '' | divided_by:site.wpm %}
+            {% else %}
+                {% assign readtime = page.content | strip_html | number_of_words | append: '' | divided_by:180 %}
+            {% endif %}
+        {% endif %}
+        <span class="time"><span class="octicon octicon-clock"></span> {{ readtime }} minute read</span>
     </div>
 
-    {% if site.readtime %}
-        {% if site.wpm %}
-            {% assign readtime = page.content | strip_html | number_of_words | append: '' | divided_by:site.wpm %}
-        {% else %}
-            {% assign readtime = page.content | strip_html | number_of_words | append: '' | divided_by:180 %}
-        {% endif %}
-    {% endif %}
-    <span class="time"><span class="octicon octicon-clock"></span> {{ readtime }} minute read</span>
-</div>
-
-<main style="margin-top: 3em;">
     <aside>
         {% include sidenav.html %}
     </aside>
     <article class="markdown-body">
         {{ content }}
     </article>
-</main>
+</section>

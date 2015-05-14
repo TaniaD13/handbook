@@ -78,7 +78,6 @@ function addAnchors(selector) {
 
     var readableID = elementID.replace(/-/g, ' ');
     var anchor = '<a class="anchorjs-link" href="#' + elementID + '">' +
-                    '<span class="anchorjs-description">Anchor link for: ' + readableID + '</span>' +
                     '<span class="anchorjs-icon" aria-hidden="true"></span>' +
                  '</a>';
 

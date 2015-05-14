@@ -1,9 +1,6 @@
 header {
     background-color: $home;
-    position: absolute;
-    @include media($bp-large) {
-        position: fixed;
-    }
+    position: fixed;
     width: 100%;
     z-index: 1;
     .developer & { background-color: $developer; }
@@ -16,17 +13,13 @@ header {
         @include pad(1rem 2rem 1rem 2rem);
     }
 }
-
+/*
 .markdown-body h2:before {
     @include media($bp-large) {
         content:"";
         display:block;
-        height:90px; /* fixed header height*/
-        margin:-90px 0 0; /* negative fixed header height */
+        height:90px; 
+        margin:-90px 0 0;
+        visibility: hidden;
     }
-}
-
-ol.toc.sticky {
-  position: fixed;
-  top: 90px;
-}
+}*/

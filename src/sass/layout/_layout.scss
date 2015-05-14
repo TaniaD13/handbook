@@ -27,8 +27,8 @@ body {
 
 article {
     @include media($bp-large) {
-        @include shift(1.5);
-        @include span-columns(7.5);
+        @include span-columns(8);
+        @include shift(4);
         @include omega();
     }
 }

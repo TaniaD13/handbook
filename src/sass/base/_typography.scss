@@ -75,6 +75,9 @@ header nav a {
     }
 }
 
-.toc li { 
+.scroll-nav__list li { 
 	list-style-type: none;
+    &.active {
+        font-weight: bold;
+    }
 }

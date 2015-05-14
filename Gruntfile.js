@@ -20,7 +20,11 @@ module.exports = function(grunt) {
                     mangle: false
                 },
                 files: {
-                    'src/js/app.min.js': ['src/components/jquery/dist/jquery.js', 'src/components/anchor-js/anchor.js']
+                    'src/js/app.min.js': [
+                    'src/components/jquery/dist/jquery.js', 
+                    'src/components/anchor-js/anchor.js',
+                    'src/components/scrollnav/jquery.scrollNav.js'
+                    ]
                 }
             }
         },
