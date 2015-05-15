@@ -21,6 +21,10 @@ Our projects currently support Internet Explorer 9+ and the latest two versions 
 * https://www.browserstack.com/
 * https://css-tricks.com/automating-css-regression-testing/
 
+##Speed testing
+* http://www.filamentgroup.com/lab/weight-wait.html
+* http://www.webpagetest.org/
+
 ## Launch Checklist
 * http://www.boxuk.com/blog/relaunching-the-ultimate-website-launch-checklist/
 * http://www.startupcto.com/processes/web-qa-testing
