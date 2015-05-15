@@ -6,24 +6,22 @@ permalink: /qa/
 
 # Quality Assurance
 
-*CONTENT COMING SOON*
+##Validation
+* W3C HTML Validation
+* W3C Link Checker
 
-## W3C HTML Validation
-## W3C Link Checker
-## YSlow and Google Page Speed
-## QA Process
-
-##Browser support
-
+##Browser Testing
 Our projects currently support Internet Explorer 9+ and the latest two versions of Chrome, Safari, and Firefox on OS X and Windows. 
-
-##Browser Testing/Responsive Testing
 * https://www.browserstack.com/
+
+##Regression Testing
+* https://garris.github.io/BackstopJS/
 * https://css-tricks.com/automating-css-regression-testing/
 
-##Speed testing
+##Speed Testing
 * http://www.filamentgroup.com/lab/weight-wait.html
 * http://www.webpagetest.org/
+* YSlow and Google Page Speed
 
 ## Launch Checklist
 * http://www.boxuk.com/blog/relaunching-the-ultimate-website-launch-checklist/
@@ -36,3 +34,7 @@ Our projects currently support Internet Explorer 9+ and the latest two versions 
 * http://phantomjs.org/quick-start.html
 * http://casperjs.org/
 * https://blog.newrelic.com/2013/06/04/simpler-ui-testing-with-casperjs-2/
+
+## QA Process
+
+##Resources
