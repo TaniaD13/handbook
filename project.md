@@ -98,9 +98,7 @@ On the **surface** you see a series of Web pages, made up of images and text. So
 
 #### Outcomes:
 
->_The value of Photoshop for me has always been that it’s the path of least resistance to the most expressive result. It’s a great tool for me to quickly get to some useful approximations._ - Dan Mall
-
-* Photoshop mockup of key pages (only desktop version)
+* Mockup of key pages
 * Full stack development is completed
 
 ## QA and Cleanup
