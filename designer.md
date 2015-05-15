@@ -26,3 +26,5 @@ Designer guidelines and process.
 * Designing in the browser
 * 80/20 rule
 * Visual inventory
+
+## Resources
