@@ -5,6 +5,7 @@ permalink: /qa/
 ---
 
 # Quality Assurance
+Process and tools that we use to Quality Assurance test projects.
 
 ## Validation
 Most pages on the World Wide Web are written in computer languages (such as HTML) that allow Web authors to structure text, add multimedia content, and specify what appearance, or style, the result should have.
