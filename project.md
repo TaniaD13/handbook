@@ -6,7 +6,7 @@ permalink: /project/
 
 # Project Flow
 
-The purpose of this document is to outline a general project, design and development process that the entire team can get behind, understand and use. We're not trying to come up with the perfect project process as there will always be edge cases.
+This describes the general project, design and development flow that we integrate into every project. We're not trying to come up with the perfect project process as there will always be edge cases.
 
 ## Methodology
 We've taken our approach from Jesse James Garretts book on [The Elements of User Experience](http://www.amazon.ca/The-Elements-User-Experience-User-Centered/dp/0735712026). 
