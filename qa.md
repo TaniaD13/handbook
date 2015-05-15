@@ -16,7 +16,7 @@ Our projects currently support Internet Explorer 9+ and the latest two versions 
 * https://www.browserstack.com/
 
 ## Automated Regression Testing
-Regression Testing is a set of automated tests to compare visual differences on websites. It’s an automated game of “Spot the Differences”, where your computer uses a web browser to render a page or portion of a page and highlights all the differences it finds between two sources.
+Regression testing is a set of automated tests to compare visual differences on websites. It’s an automated game of “Spot the Differences”, where your computer uses a web browser to render a page or portion of a page and highlights all the differences it finds between two sources.
 
 We use [BackstopJS](https://garris.github.io/BackstopJS/) that we run manually or through our build process to report on any unintended visual changes.
 
