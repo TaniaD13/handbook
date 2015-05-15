@@ -11,7 +11,8 @@ permalink: /qa/
 * W3C Link Checker
 
 ##Browser Testing
-Our projects currently support Internet Explorer 9+ and the latest two versions of Chrome, Safari, and Firefox on OS X and Windows. 
+Our projects currently support Internet Explorer 9+ and the latest two versions of Chrome, Safari, and Firefox on OS X and Windows.
+
 * https://www.browserstack.com/
 
 ##Regression Testing
