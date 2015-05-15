@@ -7,3 +7,5 @@ permalink: /customer-service/
 # Client Service
 
 *CONTENT COMING SOON*
+
+## Resources
