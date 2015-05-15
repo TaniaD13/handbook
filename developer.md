@@ -345,3 +345,5 @@ DOCS COMING SOON
 #### Plugins
 ---
 As a general rule, we try and use as few plugins as necessary. Preferring to code functionality as necessary over using plugins. If plugins need to be used they need to be vetted by team first. 
+
+## Resources
