@@ -109,7 +109,7 @@ QA happens throughout the each process but just before launch we do speed testin
 
 Finally, YEAH!
 
-#### Resources
+## Resources
 ---
 Developed from internal needs and borrowed from these resources:
 
