@@ -6,9 +6,7 @@ permalink: /designer/
 
 # Designer Guide
 
-*CONTENT COMING SOON*
-
-Designer guidelines and process for Hypenotic and freelancers.
+Designer guidelines and process.
 
 * [Design tools we use](#development-tools-we-use)
 * [Workflow](#git-workflow)
