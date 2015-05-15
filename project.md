@@ -21,7 +21,7 @@ Garrett discusses what user experience development process is all about, ensurin
 
 ---
 
-![alt tag](https://raw.githubusercontent.com/hypenotic/project-handbook/master/images/UX5.jpg)
+![alt tag](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/images/UX5.jpg)
 
 ---
 
