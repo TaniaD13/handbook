@@ -15,9 +15,10 @@ Our projects currently support Internet Explorer 9+ and the latest two versions 
 
 * https://www.browserstack.com/
 
-##Regression Testing
-* https://garris.github.io/BackstopJS/
-* https://css-tricks.com/automating-css-regression-testing/
+## Automated Regression Testing
+Regression Testing is a set of automated tests to compare visual differences on websites. It’s an automated game of “Spot the Differences”, where your computer uses a web browser to render a page or portion of a page and highlights all the differences it finds between two sources.
+
+We use [BackstopJS](https://garris.github.io/BackstopJS/) that we run manually or through our build process to report on any unintended visual changes.
 
 ##Speed Testing
 * http://www.filamentgroup.com/lab/weight-wait.html
@@ -38,4 +39,5 @@ Our projects currently support Internet Explorer 9+ and the latest two versions 
 
 ## QA Process
 
-##Resources
+## Resources
+* [Automated CSS Regression Testing](https://css-tricks.com/automating-css-regression-testing)
