@@ -12,15 +12,15 @@ Most webpages are written in languages (such as HTML) that allow contributors to
 
 However, just as texts in a natural language can include spelling or grammar errors, documents using Markup languages may also have errors. The process of verifying whether a document actually follows the rules for the language(s) it uses is called validation, and the tool used for that is a validator. A document that passes this process with success is called valid. We can define "markup validation" as the process of checking a web document against the grammar it uses.
 
-We use the [W3C HTML Validation](https://validator.w3.org) tool to validate our HTML and [W3C Link Checker](https://validator.w3.org/checklink) to check all links and anchors in a webpage.
+We use the **[W3C HTML Validation](https://validator.w3.org)** tool to validate our HTML and **[W3C Link Checker](https://validator.w3.org/checklink)** to check all links and anchors in a webpage.
 
 ## Browser Testing
-Our projects currently support Internet Explorer 9+ and the latest two versions of Chrome, Safari, and Firefox on OS X and Windows. We use [Browserstack](https://www.browserstack.com) to test our responsive designs in multiple browsers.
+Our projects currently support Internet Explorer 9+ and the latest two versions of Chrome, Safari, and Firefox on OS X and Windows. We use **[Browserstack](https://www.browserstack.com)** to test our responsive designs in multiple browsers.
 
 ## Automated Regression Testing
 Regression testing is a set of automated tests to compare visual differences on websites. It’s an automated game of “Spot the Differences”, where your computer uses a web browser to render a page or portion of a page and highlights all the differences it finds between two sources.
 
-We use [BackstopJS](https://garris.github.io/BackstopJS/) that we run manually or through our build process to report on any unintended visual differences when we make design/development changes to websites.
+We use **[BackstopJS](https://garris.github.io/BackstopJS/)** that we run manually or through our build process to report on any unintended visual differences when we make design/development changes to websites.
 
 ## Speed Testing
 With more and more users accessing sites from a mobile device, website speed is critically important. We test our sites before and after launch using:
