@@ -16,4 +16,3 @@ We're not trying to come up with the perfect way to design, the idea is to delib
 
 ## Humans Involved
 
-We're not trying to come up with the perfect way to design, the idea is to deliberately make these decisions as a team so we aren't all making different decisions individually. 
