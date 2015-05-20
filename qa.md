@@ -31,6 +31,8 @@ With more and more users accessing sites from a mobile device, website speed is 
 
 We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 
+## Accessibility
+
 ## Launch Checklist
 * http://www.boxuk.com/blog/relaunching-the-ultimate-website-launch-checklist/
 * http://www.startupcto.com/processes/web-qa-testing
@@ -48,3 +50,4 @@ We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 ## Resources
 * [Automated CSS Regression Testing](https://css-tricks.com/automating-css-regression-testing)
 * [More Weight Doesn't Mean More Wait](http://www.filamentgroup.com/lab/weight-wait.html)
+* [WAI-ARIA](http://www.w3.org/TR/wai-aria/)
