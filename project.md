@@ -40,6 +40,7 @@ The scope is fundamentally determined by the **strategy** of the site. The strat
 * Highlight constraints (Technical and Practical)
 * Create Story Map
 * Creative brief (Define look and feel, tone and voice)
+* Hypelabs project hub setup
 
 ## Phase 2: Scope
 
@@ -121,3 +122,4 @@ Developed from internal needs and borrowed from these resources:
 * [Design Process In The Responsive Age](http://www.smashingmagazine.com/2012/05/30/design-process-responsive-age)
 * [The 80/20 Hybrid Approach to Designing in the Browser](http://inspectelement.com/articles/the-8020-hybrid-approach-to-designing-in-the-browser)
 * [Story Map](https://medium.com/design-story/story-map-3cc64033128e)
+* [Project Hub](https://www.project-hub.net/)
