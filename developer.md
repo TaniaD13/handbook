@@ -303,6 +303,7 @@ Example
 * Avoid use of IDs in selectors wherever possible
 * If you must use an id selector (#selector) make sure that you have no more than one in your rule declaration. A rule like #header .search #quicksearch { ... } is considered harmful.
 * Never use the !important statement.
+* Use BEM syntax
 
 Here is a good example
 
@@ -347,3 +348,4 @@ DOCS COMING SOON
 As a general rule, we try and use as few plugins as necessary. Preferring to code functionality as necessary over using plugins. If plugins need to be used they need to be vetted by team first. 
 
 ## Resources
+[MindBEMding – getting your head ’round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
