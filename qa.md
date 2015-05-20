@@ -45,9 +45,12 @@ We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 * http://casperjs.org/
 * https://blog.newrelic.com/2013/06/04/simpler-ui-testing-with-casperjs-2/
 
+## Bug reporting best practices
+
 ## QA Process
 
 ## Resources
 * [Automated CSS Regression Testing](https://css-tricks.com/automating-css-regression-testing)
 * [More Weight Doesn't Mean More Wait](http://www.filamentgroup.com/lab/weight-wait.html)
 * [WAI-ARIA](http://www.w3.org/TR/wai-aria/)
+* [Considerations on Bug Reporting in Teams](https://css-tricks.com/considerations-on-bug-reporting-in-teams/)
