@@ -53,4 +53,5 @@ We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 * [Automated CSS Regression Testing](https://css-tricks.com/automating-css-regression-testing)
 * [More Weight Doesn't Mean More Wait](http://www.filamentgroup.com/lab/weight-wait.html)
 * [WAI-ARIA](http://www.w3.org/TR/wai-aria/)
+* [Accessibility](http://code.tutsplus.com/tutorials/accessibility-part-1-introduction--cms-21791)
 * [Considerations on Bug Reporting in Teams](https://css-tricks.com/considerations-on-bug-reporting-in-teams/)
