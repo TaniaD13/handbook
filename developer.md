@@ -44,8 +44,6 @@ Developer guidelines and process for Hypenotic and freelancers.
 
 ## Git Workflow
 
-(Borrowed from [Focusing on a Team Workflow With Git](http://code.tutsplus.com/tutorials/focusing-on-a-team-workflow-with-git--cms-22514))
-
 The key to establishing a great team workflow with Git is communication. Deciding the workflow "rules of the road" ahead of time will help eliminate friction and confusion, and allow a team to take advantage of what Git does best: boost productivity.
 
 #### Forking
@@ -56,7 +54,6 @@ All development/fixes/enhancements are worked on from a developers forked versio
 Once your work has been merged into ```develop``` branch, you will need to update your local ```develop``` branch from the project remote repo. You will essentially have two remotes. Pulling from projects remote and pushing to your forked remote once work is completed.
 
 #### Master Branch
----
 The ```master``` branch is always deployable. Always. 
 
 A deployable ```master``` branch is important for many reasons:
@@ -71,7 +68,7 @@ The ```develop``` branch should be the main branch for ongoing development.
 Feature branches are created from and merged back into ```develop```, and ```develop``` represents the bleeding edge of our codebase. Since both ```master``` and ```develop``` are permanent and highly-trafficked branches, they should never be worked in directly. Instead, all work should be done in feature branches. When implementing a new feature, branch from ```develop``` and hack out the feature.
 
 #### Branch naming, Commit messages and Pull requests
----
+
 * In general, branch names should be descriptive.
 * If a branch is a fix, it is probably best to prepend ```fix-[branch name]```
 * If a branch is a release, you can follow this format: ```release-[branch name]```
@@ -126,7 +123,6 @@ To make a hotfix, branch off ```master```, make the fix, then do a non-fast-forw
 All CSS and HTML will follow the [Google Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
 ## SCSS File Structure
-Borrowed from [Architecture for a Sass Project](e)
 
 _Break Into As Many Small Files As Makes Sense_
 There is no penalty to splitting into many small files. Do it as much as feels good to the project. I know I find it easier to jump to small specific files and navigate through them than fewer/larger ones.
@@ -351,3 +347,5 @@ As a general rule, we try and use as few plugins as necessary. Preferring to cod
 
 ## Resources
 * [MindBEMding – getting your head ’round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+* [Focusing on a Team Workflow With Git](http://code.tutsplus.com/tutorials/focusing-on-a-team-workflow-with-git--cms-22514)
+* [Architecture for a Sass Project](http://www.sitepoint.com/architecture-sass-project/)
