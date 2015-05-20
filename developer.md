@@ -119,6 +119,8 @@ We should try and never ship mistakes...but when we do, it's best to fix them fa
 
 To make a hotfix, branch off ```master```, make the fix, then do a non-fast-forward merge into ```master```. Tag it, then merge ```master``` back into develop (because we'll want develop to have the fix too). 
 
+## Project File Structure
+
 ## HTML/CSS
 
 All CSS and HTML will follow the [Google Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
