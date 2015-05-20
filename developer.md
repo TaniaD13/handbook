@@ -17,7 +17,7 @@ Developer guidelines and process for Hypenotic and freelancers.
 * [GistBox](http://www.gistboxapp.com) - Code Library
 * [Gulp](http://gulpjs.com) - Task automation
 * [Neat](http://neat.bourbon.io) - Grid layout
-* [phantomCSS](http://css-tricks.com/automating-css-regression-testing) - Automated CSS regression testing - _COMING SOON_
+* [BackstopJS](https://garris.github.io/BackstopJS/) - Regression testing
 
 ## Typical Setup
 
@@ -348,4 +348,4 @@ DOCS COMING SOON
 As a general rule, we try and use as few plugins as necessary. Preferring to code functionality as necessary over using plugins. If plugins need to be used they need to be vetted by team first. 
 
 ## Resources
-[MindBEMding – getting your head ’round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+* [MindBEMding – getting your head ’round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
