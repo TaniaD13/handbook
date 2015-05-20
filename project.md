@@ -38,8 +38,8 @@ The scope is fundamentally determined by the **strategy** of the site. The strat
 * Define site rationale & business objectives 
 * Define user goals (internal and external)
 * Highlight constraints (Technical and Practical)
-* -Creative brief- Where should this go??
-* ~~Define look and feel, tone and voice (Components of a creative brief)~~
+* Create Story Map
+* Creative brief (Define look and feel, tone and voice)
 
 ## Phase 2: Scope
 
@@ -120,3 +120,4 @@ Developed from internal needs and borrowed from these resources:
 * [Great Responsive Web Design is a Matter of Process](https://medium.com/@jaceyleigh/great-responsive-web-design-is-a-matter-of-process-270048a88c70)
 * [Design Process In The Responsive Age](http://www.smashingmagazine.com/2012/05/30/design-process-responsive-age)
 * [The 80/20 Hybrid Approach to Designing in the Browser](http://inspectelement.com/articles/the-8020-hybrid-approach-to-designing-in-the-browser)
+* [Story Map](https://medium.com/design-story/story-map-3cc64033128e)
