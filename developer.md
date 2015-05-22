@@ -162,7 +162,7 @@ sass/
 |   |– _forms.scss       # Forms 
 |   ...                  # Etc… 
 | 
-|– pages/ 
+|– states/ 
 |   |– _home.scss        # Home specific styles 
 |   |– _contact.scss     # Contact specific styles 
 |   ...                  # Etc… 
@@ -212,7 +212,7 @@ The layout/ directory (sometimes called partials/) usually contains a number of 
 
 ####Components
 
-For smaller components, there is the components/ folder (frequently called modules/). While layout/ is kind of macro (defining the global wireframe), components/ is more micro. It can contain all kinds of specific modules like a slider, a loader, a widget, or anything along those lines. There are usually a lot of files in components/ since your site is should be mostly composed of tiny modules.
+For smaller components, there is the components/ folder (frequently called modules/). While layout/ is kind of macro (defining the global wireframe), components/ is more micro. It can contain all kinds of specific modules like a slider, a loader, a widget, or anything along those lines. There are usually a lot of files in components/ since your site should be mostly composed of tiny modules.
 
 * _carousel.scss
 * _thumbnails.scss
@@ -284,7 +284,7 @@ Example
 
 ```	scss
 .form-button {
-	@extents %button;
+	@extends %button;
 	background: $light-blue;
 	@include transition( all 0.3s ease );
 	> a {
@@ -297,33 +297,85 @@ Example
 #### CSS
 ---
 * Use soft-tabs with a four space indent.
-* CSS properties should be listed in alphabetical order
+* CSS properties should be listed in order of:
+- dimensions (w,h)
+- position (x,y)
+- styling (alphabetical order)
 * Avoid use of IDs in selectors wherever possible
 * If you must use an id selector (#selector) make sure that you have no more than one in your rule declaration. A rule like #header .search #quicksearch { ... } is considered harmful.
 * Never use the !important statement.
-* Use BEM syntax
+* Use BEM syntax:
+- block__element_modifier
+- masthead__intro_fullwidth
 
 Here is a good example
 
 ```css
 .nice-class-bro {
+
+	width: 700px;
+	height: 200px;
+	box-sizing:border-box;
+	//
+	position:absolute;
+	left:40vh;
+	bottom:40vh;
+	//
 	background: rgba(0,0,0,0.5);
 	border: 1px solid rgb(0, 255, 0);
 	color: rgb(0, 0, 0);
 }
 ```
 
-## JavaScript
+## JavaScript & Filestructure
+
+#### ES6
+---
+* Moving forward, we'll start to use ES6. Docs coming soon here.
+
+#### Directory Structure
+---
+Since we're using a modular and component-based architecture, the directory structure below will do:
+
+```
+js/
+|
+|   |– index.js
+|
+|– components/ 
+| 	| slideshow/
+|   |	|– slideshow.js   # Sass Variables 
+|   ...                  # Etc… 
+| 
+|– modules/
+| 	| hero/
+|   |	|– hero.js   # Sass Variables 
+|   ...                  # Etc…  
+|– states/ 
+|	|- home.js
+|	|- archive.js
+|	...
+|– helpers/ 
+|	|- helpers.js
+
+```
 
 #### Variables
 ---
-* Variables should all be declared at the top of their scope (function) to prevent variable [hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+* Variables should all be declared at the top of their scope (function) to prevent variable [hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html).
 * All variable which are jQuery objects should be prefixed with a $ for clarity. If using Wordpress all Jquery objects should be prefexied with _jQuery_
 * If you are going to use a jQuery selector more than once, store it in a variable
 
 #### Naming
 ---
-Variable names should be a clear description of what they are or do, even if that makes them verbose
+* Variable names should be a clear description of what they are or do, even if that makes them verbose.
+* Camelcase should also be used. In the case of referring to an HTML element in a Javascript variable, we should use BEM Syntax.
+e.g. 
+
+```
+let $masthead__intro-fullwidth = $('.masthead .intro.fullwidth');
+
+```
 
 ## Python and Django
 DOCS COMING SOON
