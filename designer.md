@@ -28,3 +28,4 @@ Designer guidelines and process.
 * Visual inventory
 
 ## Resources
+* [Why designers should never use fake text](]http://thenextweb.com/dd/2015/04/09/why-designers-should-never-use-fake-text/)
