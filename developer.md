@@ -402,3 +402,4 @@ As a general rule, we try and use as few plugins as necessary. Preferring to cod
 * [Focusing on a Team Workflow With Git](http://code.tutsplus.com/tutorials/focusing-on-a-team-workflow-with-git--cms-22514)
 * [Architecture for a Sass Project](http://www.sitepoint.com/architecture-sass-project/)
 * [Github Guides](https://guides.github.com/)
+* [Every team needs kick-ass code reviews](http://blogs.atlassian.com/2014/03/every-team-needs-kick-ass-code-reviews/)
