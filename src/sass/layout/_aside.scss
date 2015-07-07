@@ -1,9 +1,16 @@
 aside {
 	display: none;
     @include media($bp-large) {
-        @include span-columns(2.6);
+        float: left;
+        display: block;
+        width: 260px;
         position: fixed;
-        margin-top: 4.9rem;
+        z-index: 100000;
+        margin-top: 5.7rem;
+        ol {
+            padding: 0;
+            margin:0;
+        }
     }
     .scroll-nav__list li {
         @include pad(0.3rem 0 0.3rem 0);
@@ -15,12 +22,12 @@ aside {
     .customerservice & a { color: $customerservice; }
     .qa & a { color: $qa; }
     .project & a { color: $project; }
+    
     .active:after {
         content:"\f00c";
         font: 15px/10px 'FontAwesome';
         opacity: 0.4;
         float: right;
         margin-top: .5em;
-
     }
 }

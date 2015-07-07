@@ -4,7 +4,7 @@ tagline: Hypenotic Handbook
 email: lionel@hypenotic.com
 description: The toolkits and guidelines that power Hypenotic projects.
 version: 1.0
-baseurl: "/handbook" # the subpath of your site, e.g. /blog/
+#baseurl: "/handbook" # the subpath of your site, e.g. /blog/
 #url: "http://hypenotic.github.io/handbook" # the base hostname & protocol for your site
 twitter_username: lionelmann
 github_username:  lmann

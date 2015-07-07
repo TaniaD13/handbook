@@ -8,6 +8,8 @@ permalink: /project/
 
 This describes the general project, design and development flow that we integrate into every project. We're not trying to come up with the perfect project process as there will always be edge cases.
 
+![Image of process squiggle](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/src/images/Process_squiggle.gif)
+
 ## Methodology
 We've taken our approach from Jesse James Garretts book on [The Elements of User Experience](http://www.amazon.ca/The-Elements-User-Experience-User-Centered/dp/0735712026). 
 
@@ -21,7 +23,7 @@ Garrett discusses what user experience development process is all about, ensurin
 
 ---
 
-![alt tag](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/images/UX5.jpg)
+![Image of ux flow](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/src/images/UX5.jpg)
 
 ---
 
