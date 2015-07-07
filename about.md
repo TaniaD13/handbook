@@ -6,7 +6,7 @@ permalink: /about/
 
 # About
 
-## Why should I care?
+## Why?
 
 The point of making these decisions is to make sure that we are all on the same page, and that we can easily understand what was intended when we look at code in the future. 
 
