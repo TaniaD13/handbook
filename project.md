@@ -6,12 +6,12 @@ permalink: /project/
 
 # Project Flow
 
-This describes the general project, design and development flow that we integrate into every project. We're not trying to come up with the perfect project process as there will always be edge cases.
+This describes the general flow that we integrate into every project. We're not trying to come up with the perfect process as there will always be edge cases.
 
 ![Image of process squiggle](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/src/images/process_squiggle.png)
 
 ## Methodology
-We've taken our approach from Jesse James Garretts book on [The Elements of User Experience](http://www.amazon.ca/The-Elements-User-Experience-User-Centered/dp/0735712026). 
+We've taken our approach from Jesse James Garretts book on __The Elements of User Experience__.
 
 Garrett discusses what user experience development process is all about, ensuring that no aspect of the user's experience happens without conscious, explicit intent. This means taking into account every possibility of every action the user is likely to take and understanding the user's expectations at every step of the way through that process. By breaking the job of crafting user experience down into its component elements, we can better understand the problem as a whole. The process of designing and developing these user experiences can be broken into 5 planes: 
 
@@ -112,6 +112,10 @@ QA happens throughout the each process but just before launch we do speed testin
 
 Finally, YEAH!
 
+## Maintenance
+
+Content coming soon
+
 ## Resources
 ---
 Developed from internal needs and borrowed from these resources:
@@ -125,3 +129,4 @@ Developed from internal needs and borrowed from these resources:
 * [The 80/20 Hybrid Approach to Designing in the Browser](http://inspectelement.com/articles/the-8020-hybrid-approach-to-designing-in-the-browser)
 * [Story Map](https://medium.com/design-story/story-map-3cc64033128e)
 * [Project Hub](https://www.project-hub.net/)
+* [The Elements of User Experience](http://www.amazon.ca/The-Elements-User-Experience-User-Centered/dp/0735712026)
