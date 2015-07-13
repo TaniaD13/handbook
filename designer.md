@@ -8,7 +8,7 @@ permalink: /designer/
 
 Designer guidelines and process.
 
-![Image of hierarchy of needs](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/src/images/hierarchy-of-needs.png)
+![Image of hierarchy of needs](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/src/images/hierarchy-of-needs.png){: .center }
 
 ## Design Tools
 
