@@ -22,6 +22,7 @@ Designer guidelines and process.
 * Framerjs
 * Gather Content
 
+## Design Workflow
 
 * Designing in the browser
 * 80/20 rule
