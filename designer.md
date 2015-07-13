@@ -10,12 +10,9 @@ Designer guidelines and process.
 
 ![Image of hierarchy of needs](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/src/images/hierarchy-of-needs.png)
 
-* [Design tools we use](#development-tools-we-use)
-* [Workflow](#git-workflow)
-* [Best Practices](#best-practices)
-
 ## Design Tools
 
+* [Design tools we use](#development-tools-we-use)
 * Photoshop 
 * Wireframing
 * Sketch
