@@ -16,5 +16,5 @@ We're not trying to come up with the perfect system, the idea is to deliberately
 
 ## Who
 
-Currently maintained by Lionel Mann and the Hypenotic Team 
+Currently maintained by [Lionel Mann]() and the [Hypenotic Team](http://hypenotic.com)
 
