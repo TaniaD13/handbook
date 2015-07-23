@@ -24,15 +24,16 @@ Developer guidelines and process for Hypenotic and freelancers.
 #### Initial system setup:
 
 ###### Node.js
-1. Make sure you have __Node.js__ installed. If you are unsure go to Terminal and run ```node -v```. If installed you should get a version # such as ```v0.10.35``` __npm__ is installed as part of node. If you need to upgrade node.js, you upgrade using npm by running:
+1. Make sure you have __Node.js__ installed. If you are unsure go to Terminal and run ```node -v```. If installed you should get a version # such as ```v0.10.35``` __npm__ is installed as part of node. 
+
+2. If not installed, install node.js globally by running ```sudo npm install npm -g```
+3. If you need to upgrade node.js, you upgrade using npm by running:
 
 ```
 sudo npm cache clean -f
 sudo npm install -g n
 sudo n stable
 ```
-
-2. If not installed, install node.js globally by running ```sudo npm install npm -g```
 
 ###### Bower
 3. Make sure you have __Bower__ installed by running ```bower -v```. If nothing appears, install Bower globally by running ```npm install -g bower```
