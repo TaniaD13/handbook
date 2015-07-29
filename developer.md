@@ -127,12 +127,88 @@ To make a hotfix, branch off ```master```, make the fix, then do a non-fast-forw
 
 ## HTML/CSS
 
-All CSS and HTML will follow the [Google Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
+Try to use HTML5 tags as much as possible. It makes your code much more semantic when you compose it with descriptive tags; creating a sidebar with the ```<aside>``` tag instead of ```<div class="sidebar">``` makes the code more understandable. 
+
+All CSS and HTML will incorporate BEM Syntax, as it helps when a developer jumps into another developer's existing code.
+
+The basic syntax is as followed:
+```
+.block {};
+.block__element {};
+.block--modifier {};
+```
+
+####Blocks
+These are the main block elements. They're often the main chunks that build the entire webpage.
+
+####Elements
+Elements are descendents of ```.block```, and help to form ```.block``` as a whole. They are usually the children of the main block.
+
+####Modifiers
+As the name hints - these are 'modifications' of an element. Modifiers represent a different state or version of ```.block```, ```.block__element```, etc., and usually refer to a change in the appearance of a block/element.
+
+###Example
+
+#####HTML
+```
+<div class="form-button">
+	<p class="form-button__text">Hello</p>
+</div>
+
+<div class="form-button form-button--red">
+	<p class="form-button__text">Hello</p>
+</div>
+```
+
+The second button will inherit all the styles from ```.form-button```, but adding the class of ```.form-button--red``` modifies its appearance. In this case, from the name of the MODIFIER, we understand that this button will be red (though it may incorporate other styling as well). We want to be as concise and descriptive as possible with our naming scheme.
+
+#####SCSS
+```
+.form-button {
+	width: 200px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 1);
+	border-radius: 3px;
+
+	// this will output as '.form-button__text'
+	// in terms of BEM Syntax, this is an ELEMENT of '.form-button'
+	> @at-root #{&}__text {
+		font-weight: 700;
+	}
+}
+
+// this will output as '.form-button--red'
+// in terms of BEM Syntax, this is a MODIFIER of '.form-button'
+.form-button--red {
+	background: rgba(255, 0, 0, 1);
+}
+```
+
+Every single element does not need to use BEM. Even if an element is nested within another, you can start a new BEM sequence just related to that particular child element. 
+
+Just a little example:
+
+```
+<article class="overview">
+	<section class="overview__intro">
+		<p class="overview__intro--firstpara">This first paragraph will be style differently from the rest.</p>
+		<p>Insert regular paragraph text here.</p>
+		<p>Insert regular paragraph text here.</p>
+	</section>
+	<div class="mini-banner mini-banner--green">
+		<p class="mini-banner__text">Hello! It's nice to meet you!</p>
+	</div>
+</article>
+```
+
+You can read the following article to learn more:
+* [MindBEMding – getting your head ’round BEM syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+
 
 ## SCSS File Structure
 
 _Break Into As Many Small Files As Makes Sense_
-There is no penalty to splitting into many small files. Do it as much as feels good to the project. I know I find it easier to jump to small specific files and navigate through them than fewer/larger ones.
+ -There is no penalty to splitting into many small files. Do it as much as feels good to the project. I know I find it easier to jump to small specific files and navigate through them than fewer/larger ones.
 
 When planning your CSS architecture, folders are essential: you don’t just drop every Sass file into the same folder, you categorize them.
 
@@ -290,13 +366,23 @@ a {
 Example
 
 ```	scss
-.form-button {
+.sidebar-button {
 	@extends %button;
 	background: $light-blue;
 	@include transition( all 0.3s ease );
 	> a {
 		border: 1px solid $border_color;
 		@include transform(rotate( 90deg ));
+	}
+	// this will output as '.sidebar-button__text'
+	// in terms of BEM Syntax, this is an ELEMENT of '.sidebar-button'
+	> @at-root #{&}__text {
+		font-weight: 700;
+	}
+	// this will output as '.sidebar-button--blue'
+	// in terms of BEM Syntax, this is a MODIFIER of '.sidebar-button'
+	> @at-root #{&}--blue {
+		background: rgba(0, 0, 255, 1);
 	}
 }
 ```
@@ -312,13 +398,14 @@ Example
 * If you must use an id selector (#selector) make sure that you have no more than one in your rule declaration. A rule like #header .search #quicksearch { ... } is considered harmful.
 * Never use the !important statement.
 * Use BEM syntax:
-- block__element_modifier
-- masthead__intro_fullwidth
+- block__element--modifier
+- masthead__intro--fullwidth
 
-Here is a good example
+Here is a good example:
 
 ```css
-.nice-class-bro {
+// in terms of BEM Syntax, this is a MODIFIER of '.sidebar'
+.sidebar--blue {
 
 	width: 700px;
 	height: 200px;
@@ -328,9 +415,10 @@ Here is a good example
 	left:40vh;
 	bottom:40vh;
 	//
-	background: rgba(0,0,0,0.5);
+	background: rgba(0, 0, 255, 1);
 	border: 1px solid rgb(0, 255, 0);
 	color: rgb(0, 0, 0);
+
 }
 ```
 
