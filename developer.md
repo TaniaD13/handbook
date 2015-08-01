@@ -147,7 +147,17 @@ Elements are descendents of ```.block```, and help to form ```.block``` as a who
 ####Modifiers
 As the name hints - these are 'modifications' of an element. Modifiers represent a different state or version of ```.block```, ```.block__element```, etc., and usually refer to a change in the appearance of a block/element.
 
-###Example
+###Examples
+
+/* Block component */
+```.btn {}```
+
+/* Element that depends upon the block */ 
+```.btn__price {}```
+
+/* Modifier that changes the style of the block */
+```.btn--orange {} ```
+```.btn--big {}```
 
 #####HTML
 ```
