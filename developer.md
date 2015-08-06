@@ -8,6 +8,10 @@ permalink: /developer/
 
 Developer guidelines and process for Hypenotic and freelancers.
 
+## Development process
+Whether we start on a new site, work on a feature enhancement or tasked to squash a bug we always start projects the same way: we create a repository on Github and push the latest code to it. This way, any one of our developers can access the project and create a development version on their local system. We then recreate the live site on our remote development server which our clients can view. Once a client approves any changes on the development site, we push that change to their live site.  This process ensures we are developing in a responsive, secure and reduntant/versioned manner.
+
+
 ## Development Tools
 
 * [Bourbon](http://bourbon.io) - Sass library
