@@ -136,3 +136,4 @@ Developed from internal needs and borrowed from these resources:
 * [Story Map](https://medium.com/design-story/story-map-3cc64033128e)
 * [Project Hub](https://www.project-hub.net/)
 * [The Elements of User Experience](http://www.amazon.ca/The-Elements-User-Experience-User-Centered/dp/0735712026)
+* [Thoughtbot Playbook](https://playbook.thoughtbot.com/)
