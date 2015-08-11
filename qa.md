@@ -36,7 +36,7 @@ We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 Coming Soon
 
 ## Launch Checklist/Process
-# Page Content
+### Page Content
 * Make sure web copywriting has been proofread, and ran through a spelling and grammar checker to check for correctness. Use online tools such as Reverso, or Spellcheckplus.com
 
 * Check that generic content, such as lorem ipsum, has been properly removed and replaced.
