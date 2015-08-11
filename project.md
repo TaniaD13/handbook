@@ -52,9 +52,9 @@ The scope is fundamentally determined by the **strategy** of the site. The strat
 * User goals have been outlined
 * Creative brief has been created
 
-The structure defines the way in which the various features and functions of the site fit together. Just what those features and functions are constitutes the **scope** of the site.  The question of whether that feature—or any feature—is included on a site is a question of scope. Defining what features and content will address the strategy, their priority, and which will fit in the budget.
+The structure defines the way in which the various features and functions of the site fit together. Just what those features and functions constitute the scope of the site. The question of whether that feature—or any feature—is included on a site is a question of scope. Defining what features and content will address the strategy, their priority, and which will fit in the budget.
 
-This will have two focuses. The first is **functionality**. What features should be on the site to support the strategy. The second is **content strategy**. Content is what people are coming for. Content is what we need people to find, process, interact with and act on. Treating it as an afterthought compromises our chances of delivering what people are seeking and of getting them to do what we want them to. 
+This will have two focuses. The first is **functionality**. What features should be on the site to support the strategy. The second is the **content strategy**. Content is what people are coming for. Content is what we need people to find, process and act on. Treating it as an afterthought compromises our chances of delivering what people are seeking and of getting them to do what we want them to.
 
 #### Outcomes:
 
@@ -106,7 +106,7 @@ On the **surface** you see a series of Web pages, made up of images and text. So
 
 ## QA and Cleanup
 
-QA happens throughout the each process but just before launch we do speed testing/optimization, visual fine tuning of images and interactions, bug squashing of any functionality issues and a general "spring cleaning" of any code.
+QA happens throughout the each process but just before launch we do speed testing/optimization, visual fine-tuning of images and interactions, bug squashing of any functionality issues and a general "spring cleaning" of any code.
 
 ## Launch
 
