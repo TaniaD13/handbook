@@ -55,3 +55,4 @@ We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 * [WAI-ARIA](http://www.w3.org/TR/wai-aria/)
 * [Accessibility](http://code.tutsplus.com/tutorials/accessibility-part-1-introduction--cms-21791)
 * [Considerations on Bug Reporting in Teams](https://css-tricks.com/considerations-on-bug-reporting-in-teams/)
+* [Why the Speed of Your Site Should Be a Priority](http://www.blogherald.com/2015/08/07/why-the-speed-of-your-site-should-be-a-priority)
