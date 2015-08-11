@@ -10,9 +10,9 @@ permalink: /about/
 
 ## What's this?
 
-This handbook is an attempt at codifying our most recent thinking and process on design, development, client experience and quality assurance practices. The point of making these decisions is to ensure we are all on the same page, and that we can easily focus on what was intended for any project. 
+This handbook is an attempt at codifying our most recent thinking and process on design, development, client experience and quality assurance practices. The point of making these decisions is to ensure we are all on the same page, and that we can easily focus on what was intended for any project.
 
-We are not claiming that this is the best or the most perfect system. These ideas have come out of many years of learning from misteps and successes. The contents of this handbook will change often. The idea is to deliberately make these decisions as a team, so we aren't all making different decisions individually.
+We are not claiming that this is the best or a perfect system. These ideas have come out of many years of learning from missteps and successes. The contents of this handbook will change often. The idea is to deliberately make these decisions as a team, so we aren't all making different decisions individually.
 
 ## Who
 
