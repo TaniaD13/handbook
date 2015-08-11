@@ -147,10 +147,10 @@ As developers and team members, it's our responsibility to establish a workflow 
 
 Having a system for bug reports in a team environment has a ton of benefits:
 
-Knowing which bugs currently exist.
-Understand who is working on what (and what they need).
-Get an overview of how much time it will take to get things done.
-Find tasks that are blocked or those which require some kind of dependency before they're tackled.
+* Knowing which bugs currently exist.
+* Understand who is working on what (and what they need).
+* Get an overview of how much time it will take to get things done.
+* Find tasks that are blocked or those which require some kind of dependency before they're tackled.
 
 With a solid bug-fixing system in place, we're in a much better position to do great work, yet it's important to note that good bug-reporting skills are not only a requirement for developers. Everyone on the team should be capable of finding a bug and providing as much information as possible about it. This means that designers, developers, and project managers of all experience levels shouldn't be afraid to use the bug tool and get an overview of the project as a whole.
 
