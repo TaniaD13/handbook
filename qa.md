@@ -8,7 +8,7 @@ permalink: /qa/
 Process and tools that we use to Quality Assurance test projects.
 
 ## Validation
-Most webpages are written in languages (such as HTML) that allow contributors to structure text, add multimedia content, and specify the style or appearance of a website. As with every language, these have their own grammar, vocabulary and syntax, and every document written with these computer languages are supposed to follow these rules. These machine-readable grammars are called "Document Type Definition" or DTDs.
+Most webpages are written in languages (such as HTML) that allow contributors to structure the text, add multimedia content, and specify the style or appearance of a website. As with every language, these have their own grammar, vocabulary, and syntax, and every document written with these computer languages are supposed to follow these rules. These machine-readable grammars are called "Document Type Definition" or DTDs.
 
 However, just as texts in a natural language can include spelling or grammar errors, documents using Markup languages may also have errors. The process of verifying whether a document actually follows the rules for the language(s) it uses is called validation, and the tool used for that is a validator. A document that passes this process with success is called valid. We can define "markup validation" as the process of checking a web document against the grammar it uses.
 
