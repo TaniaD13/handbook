@@ -15,7 +15,7 @@ However, just as texts in a natural language can include spelling or grammar err
 We use the **[W3C HTML Validation](https://validator.w3.org)** tool to validate our HTML and **[W3C Link Checker](https://validator.w3.org/checklink)** to check all links and anchors in a webpage.
 
 ## Browser Testing
-Our projects currently support Internet Explorer 9+ and the latest two versions of Chrome, Safari, and Firefox on OS X and Windows. We use **[Browserstack](https://www.browserstack.com)** to test our responsive designs in multiple browsers.
+Our projects currently support Internet Explorer 9+ and the latest two versions of Chrome, Safari, and Firefox on OS X and Windows. We use **[BrowserStack](https://www.browserstack.com)** to test our responsive designs in multiple browsers.
 
 ## Automated Regression Testing
 Regression testing is a set of automated tests to compare visual differences on websites. It’s an automated game of “Spot the Differences”, where your computer uses a web browser to render a page or portion of a page and highlights all the differences it finds between two sources.
