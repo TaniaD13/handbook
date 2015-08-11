@@ -49,7 +49,7 @@ Coming Soon
 
 * Test to see that all internal links across web pages are working properly
 
-# OPTIMIZED USER EXPERIENCE
+### Optimize User Experience
 
 * Ensure that Contact Us and other forms are submitting data properly. If form is sent to an email address ensure that email is received on a mailbox that is monitored, or ensure that content is correctly stored in database.
 
@@ -77,8 +77,61 @@ Coming Soon
 
 * Choose www vs no-www and make sure that ONLY one of them is working to ensure you don’t get penalized for duplicate content. After choosing one, make sure one redirects to the other.
 
-* http://thehive.beewits.com/the-ultimate-web-design-checklist-things-to-do-when-launching-a-website/#Stage 3 - Quality Assurance
+### Responsive and Mobile Friendly
 
+* Make sure you are using the viewport meta tag: <meta name=”viewport” content=”initial-scale=1″>
+
+* Check that your website is mobile-friendly with at least a MobileOk score of 75 and Google sees your page as Mobile Friendly. You should have fixed most of the Google Mobile Insights problems here
+
+* Use correct input types for email, phone and URL input form fields to ensure these are rendered correctly on mobile phones
+
+* Check how the site looks on emulators such as screenqueries, ipadpeek, iphonetester, screenfly, mobilephonesimulator.
+
+* Test the site using real devices you have accessible to you or use opendevicelab.com
+
+### Analytics
+
+* Register and verify site with Google WebMasters
+
+* Create a new property and implement Google Analytics code.
+
+* Make sure you link Google WebMasters and Google Analytics to be able to get better insights from within Google Analytics
+
+* Exclude relevant IP addresses (such as office IP) from analytics tracking to ensure your own company’s and the client’s company do not inflate their website hits
+
+* Set up any funnels, goals or tracking events which have been properly created in your analytics software
+
+* Implement visitor tracking software such as HotJar, CrazyEgg, or Optimizely
+
+* Implement any site uptime monitor such as Pingdom
+
+### SEO
+
+* Check that all pages have unique page titles (with a recommended length of fewer than 70 characters, including any keywords).
+
+* Check that all pages have unique meta descriptions (with a recommended length of fewer than 156 characters, including keywords) – the meta description should be human-friendly – not optimized for search engines. Think about it this way: “If you wanted to use 156 characters to describe exactly what that article contains, what would you say?”
+
+* Verify that pages have your chosen keywords included without any keyword stuffing (do not over emphasize particular keywords)
+
+* See that all pages have metadata which is properly in place (with correct spelling and grammar) for any content which you want to be shared via Social
+
+* Ensure that relevant Alt tags have been added to every image.
+
+* Make sure that a dynamic XML sitemap (which gets updated with every post you make) has been created and verify that the XML sitemap has been submitted to search engines via Google WebMasters.
+
+* If you have had another older website, make sure you have 301 redirects in place for all old URLs (redirecting old pages to new ones).
+
+### Usability
+
+* Check for HTML5 compatibility using modern.ie, modernizr, and Compat Inspector
+
+* Create a Favicon generator for each platform here
+
+* Enable user and search engine friendly URLs
+
+* Set up a print stylesheet
+
+* Add humans.txt
 
 ## Functional Testing
 
