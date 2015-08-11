@@ -158,10 +158,10 @@ Here at Hypenotic, we use Github Issues as our preferred bug reporting tool.
 
 Even if you pick the perfect tool, it doesn't necessarily mean it will be used by everyone in a helpful manner. There have been plenty of instances where I've struggled to find a reported bug because of the lack of information that's been available.
 
-1. Be short and to the point
+### 1. Be short and to the point
 Ideally we want bullet points rather than long sentences so that a developer can find the issue as quickly as they can although that doesn't give us an excuse to be curt. It's best to describe the problem as accurately and with as few deterrents as possible. If there is someone who built that particular feature and knows the in-and-outs of it, perhaps you should assign it them first. But, don't put all the blame on them.
 
-2. Make sure to add screenshots and/or GIFs
+### 2. Make sure to add screenshots and/or GIFs
 
 For animation and complex interaction bugs in particular, animated GIFs are almost essential to highlighting the flaw's peculiarities. However, for the most part, a simple screenshot will help us find which view or template the bug can be found in.
 
