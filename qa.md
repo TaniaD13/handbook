@@ -22,7 +22,7 @@ Regression testing is a set of automated tests to compare visual differences on 
 
 We use **[BackstopJS](https://garris.github.io/BackstopJS/)** that we run manually or through our build process to report on any unintended visual differences when we make design/development changes to websites.
 
-## Speed Testing
+## Performance Testing
 With more and more users accessing sites from a mobile device, website speed is critically important. We test our sites before and after launch using:
 
 * [Google Page Speed](https://developers.google.com/speed/pagespeed/)
@@ -33,21 +33,64 @@ We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 
 ## Accessibility
 
-## Launch Checklist
-* http://www.boxuk.com/blog/relaunching-the-ultimate-website-launch-checklist/
-* http://www.startupcto.com/processes/web-qa-testing
-* http://www.searchenginejournal.com/50-questions-to-evaluate-the-quality-of-your-website/
+Coming Soon
+
+## Launch Checklist/Process
+# Page Content
+* Make sure web copywriting has been proofread, and ran through a spelling and grammar checker to check for correctness. Use online tools such as Reverso, or Spellcheckplus.com
+
+* Check that generic content, such as lorem ipsum, has been properly removed and replaced.
+
+* See that all images are in the correct places, smushed, formatted, width and height specified and working on all devices.
+
+* Confirm that videos and audio files are in the correct places, formatted and working on all devices.
+
+* Test all linked content, such as case studies, ebooks, and whitepapers, and verify that they are correctly linked.
+
+* Test to see that all internal links across web pages are working properly
+
+# OPTIMIZED USER EXPERIENCE
+
+* Ensure that Contact Us and other forms are submitting data properly. If form is sent to an email address ensure that email is received on a mailbox that is monitored, or ensure that content is correctly stored in database.
+
+* Verify the Thank-you message or page displayed after form is submitted
+
+* Check that Auto-responders are working properly and text in emails has been proofed
+
+* External links across web pages are working properly, and open in a new tab (Fix any broken links using this tool)
+
+* Ensure that Social media share icons are working properly – that there is a good image for sharing and that the description for sharing is appropriate.
+
+* Correct your metadata as necessary to ensure social media sharing is working ok.
+
+* Use the Facebook linter to ensure your Facebook sharing will work well
+
+* Implement Twitter Cards and confirm it works well on the Preview tool
+
+* Ensure that company logo is linked to the homepage.
+
+* Check that load time for site pages is optimized (confirm with multiple sources) such as GTMetrix and Pingdom tools. 
+
+* Try a non-existing address on your page to check the 404 page and 404 redirect pages are in place
+
+* Integrations with third-party tools, such as your CRM, e-commerce software, and/or marketing platform should be tested to ensure they are running smoothly
+
+* Choose www vs no-www and make sure that ONLY one of them is working to ensure you don’t get penalized for duplicate content. After choosing one, make sure one redirects to the other.
+
 * http://thehive.beewits.com/the-ultimate-web-design-checklist-things-to-do-when-launching-a-website/#Stage 3 - Quality Assurance
-* https://basecamp.com/1759522/projects/2012610 - Wordpress checklist
+
 
 ## Functional Testing
+
+Coming Soon
+
 * http://phantomjs.org/quick-start.html
 * http://casperjs.org/
 * https://blog.newrelic.com/2013/06/04/simpler-ui-testing-with-casperjs-2/
 
 ## Bug reporting best practices
 
-## QA Process
+Coming Soon
 
 ## Resources
 * [Automated CSS Regression Testing](https://css-tricks.com/automating-css-regression-testing)
