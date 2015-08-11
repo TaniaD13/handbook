@@ -10,6 +10,12 @@ This describes the general flow that we integrate into every project. We're not 
 
 ![Image of process squiggle](https://raw.githubusercontent.com/hypenotic/handbook/gh-pages/src/images/process_squiggle.png)
 
+## Project Tools
+
+* Basecamp
+* Trello
+* Slack
+
 ## Methodology
 We've taken our approach from Jesse James Garretts book on __The Elements of User Experience__.
 
