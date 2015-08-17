@@ -158,46 +158,38 @@ With a solid bug-fixing system in place, we're in a much better position to do g
 
 Here at Hypenotic, we use Github Issues as our preferred bug reporting tool.
 
-Even if you pick the perfect tool, it doesn't necessarily mean it will be used by everyone in a helpful manner. There have been plenty of instances where I've struggled to find a reported bug because of the lack of information that's been available.
+Here are some best practices in bug reporting.
 
 ### 1. Be short and to the point
-Ideally we want bullet points rather than long sentences so that a developer can find the issue as quickly as they can although that doesn't give us an excuse to be curt. It's best to describe the problem as accurately and with as few deterrents as possible. If there is someone who built that particular feature and knows the in-and-outs of it, perhaps you should assign it them first. But, don't put all the blame on them.
+Ideally we want bullet points rather than long sentences so that a developer can find the issue as quickly as they can although that doesn't give us an excuse to be curt. It's best to describe the problem as accurately and with as few deterrents as possible. If there is someone who built that particular feature and knows the in-and-outs of it, perhaps you should assign it them first.
 
-### 2. Make sure to add screenshots and/or GIFs
+### 2. Make sure to add screenshots
 
 For animation and complex interaction bugs in particular, animated GIFs are almost essential to highlighting the flaw's peculiarities. However, for the most part, a simple screenshot will help us find which view or template the bug can be found in.
 
 ### 3. Identify the browser version
 
-It's not very helpful if you simply quote the name of the browser like "Chrome" or "IE" it's much better if you give a particular browser version such as "Chrome 42" or "IE8". But, if you can also figure out whether the bug isn't present in other browsers then that's even better, something like: "I found this bug in iOS 8.3 but I can't replicate it in any other Webkit browser." With this sort of information you might save a developer a lot of time and they can more quickly identify what's going wrong.
+It's very helpful to quote the name of the browser and version such as "Chrome 42" or "IE8". But, if you can also figure out whether the bug isn't present in other browsers then that's even better, something like: "I found this bug in iOS 8.3 but I can't replicate it in any other Webkit browser." With this sort of information you might save a developer a lot of time and they can more quickly identify what's going wrong.
 
-If you want to make sure you send along all the possible information, you could use a tool like Support Details that snags a lot of stuff and allows you to email it or PDF it (or just screenshot it to include). If you have a bug reporting for you control yourself, you can even grab and prefill hidden fields with this information so you have it without any effort from the reporter.
+If you want to make sure you send along all the possible information, you could use a tool like [http://supportdetails.com/](Support Details) that snags a lot of stuff and allows you to email it or PDF it.
 
-### 4. Make a note of which template, view or page the bug can be found on
+### 4. Make note of which template/page the bug can be found on
 
 If it's on the /blog or the /contact-us page, or if it can be found in a specific partial such as the header or the footer, let the developer know that as quickly as possible.
 
 A full URL is usually super helpful.
 
-### 5. Don't forget to mention the particular module or class that might be causing the issue
-
-If you're more familiar with the front-end and want to give a developer an answer to a problem you'll need to do two things: First you'll need to collect a high-five from every developer on the team because reporting bugs whilst simultaneously telling the developer how to fix it is a big deal. But secondly you'll probably need to make a reduced test case. This involves breaking up the code into little chunks and picking away at it until you reveal what is precisely that's going on. With this information, you'll be honing in on the section of problematic code and making everyone's lives a little bit easier.
-
-### 6. See if there are any console errors or notifications
+### 5. See if there are any console errors or notifications
 
 Rather than copy/pasting the console error it's probably best to take a screenshot if there's any warnings. They might be unrelated to the particular bug you've found, but it might just be the thing that's messing everything up.
 
-### 7. Double check if the bug has already been found by someone else
-
-Duplicating bug reports generally hasn't been that much of a problem in the projects I've worked on, but if there are lots of issues, it's definitely worth taking a quick glance through the archived bugs or the currently open issues to see if your bug can be found there.
+### 7. Double check if the bug has already been found
 
 This task might also involve you going through and seeing which bugs are similar and tagging the problem in the app that you use. If the bug has been found then maybe it's worth adding more information or noting on the card as to where you found a new instance of the same problem.
 
 ### 8. Group tasks into specific categories
 
-I've found it particularly useful when marking an issue as 'blocked' by using the labels feature in Trello. A big red tag will let everyone know that there's another problem associated with that task that must be dealt with first.
-
-Similarly, it's helpful to separate everyone's tasks into specific areas such as:
+It's helpful to separate everyone's tasks into specific areas such as:
 
 * Content
 * Design
@@ -209,12 +201,6 @@ Similarly, it's helpful to separate everyone's tasks into specific areas such as
 
 This gives us an overview of the project timeline and gives developers an opportunity to look at all the bugs with a single glance.
 
-Most bug-reporting software has the ability to classify things. Tagging, categorizing, labeling, assigning, whatever.
-
-### 9. Document your existing bug task workflow
-
-If you feel that you have a great workflow in place then perhaps you should setup a document that covers your process with a little detail. This might not only be for your own organization and might help others so that they don't make the same mistakes. Thoughtbot playbook https://playbook.thoughtbot.com/
-
 ## Resources
 * [Automated CSS Regression Testing](https://css-tricks.com/automating-css-regression-testing)
 * [More Weight Doesn't Mean More Wait](http://www.filamentgroup.com/lab/weight-wait.html)
@@ -222,3 +208,4 @@ If you feel that you have a great workflow in place then perhaps you should setu
 * [Accessibility](http://code.tutsplus.com/tutorials/accessibility-part-1-introduction--cms-21791)
 * [Considerations on Bug Reporting in Teams](https://css-tricks.com/considerations-on-bug-reporting-in-teams/)
 * [Why the Speed of Your Site Should Be a Priority](http://www.blogherald.com/2015/08/07/why-the-speed-of-your-site-should-be-a-priority)
+* [Thoughtbot playbook](https://playbook.thoughtbot.com/)
