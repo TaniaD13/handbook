@@ -32,3 +32,4 @@ Designer guidelines and process.
 * [PostCSS Style Guide](https://github.com/morishitter/postcss-style-guide)
 * [Checklist for Design](http://www.hailpixel.com/articles/checklist-for-design)
 * [Lonely Planet Styleguide](http://rizzo.lonelyplanet.com/styleguide/design-elements/colours)
+* [The “I’m a better designer” checklist](https://blog.skcript.com/the-i-m-a-better-designer-checklist-255fd984c68b)
