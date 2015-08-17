@@ -173,7 +173,7 @@ It's very helpful to quote the name of the browser and version such as "Chrome 4
 
 If you want to make sure you send along all the possible information, you could use a tool like [http://supportdetails.com/](Support Details) that snags a lot of stuff and allows you to email it or PDF it.
 
-### 4. Make note of which template/page the bug can be found on
+### 4. Make note of which template/page the bug is on
 
 If it's on the /blog or the /contact-us page, or if it can be found in a specific partial such as the header or the footer, let the developer know that as quickly as possible.
 
