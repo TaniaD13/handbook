@@ -81,29 +81,25 @@ These are some of the high-level checks we make before launching and is not a co
 
 ### Responsive and Mobile Friendly
 
-* Make sure you are using the viewport meta tag: <meta name=”viewport” content=”initial-scale=1″>
+* Make sure you are using the viewport meta tag: <meta name="viewport" content="initial-scale=1">
 
 * Check that your website is mobile-friendly. Most of the mobile problems should have been fixed already by this stage.
 
 * Use correct input types for email, phone and URL input form fields to ensure these are rendered correctly on mobile phones
 
-* Check how the site looks on emulators such as:
-** [http://beta.screenqueri.es/](screenqueries)
-** [http://ipadpeek.com/](ipadpeek)
-** [http://iphone4simulator.com/](iphonetester)
-** [http://quirktools.com/screenfly/](screenfly)
+* Check how the site looks on emulators such as: [http://beta.screenqueri.es/](screenqueries), [http://ipadpeek.com/](ipadpeek), [http://iphone4simulator.com/](iphonetester), [http://quirktools.com/screenfly/](screenfly)
 
-* Test the site using real devices you have accessible to you or use opendevicelab.com
+* Test the site using real devices.
 
 ### Analytics
 
 * Register and verify site with Google WebMasters
 
-* Create a new property and implement Google Analytics code.
+* Implement Google Analytics
 
 * Make sure you link Google WebMasters and Google Analytics to be able to get better insights from within Google Analytics
 
-* Exclude relevant IP addresses (such as office IP) from analytics tracking to ensure your own company’s and the client’s company do not inflate their website hits
+* Exclude relevant IP addresses (such as office IP) from analytics tracking to ensure your own company’s and the client’s company do not inflate their stats.
 
 * Set up any funnels, goals or tracking events which have been properly created in your analytics software
 
@@ -115,9 +111,9 @@ These are some of the high-level checks we make before launching and is not a co
 
 * Check that all pages have unique page titles (with a recommended length of fewer than 70 characters, including any keywords).
 
-* Check that all pages have unique meta descriptions (with a recommended length of fewer than 156 characters, including keywords) – the meta description should be human-friendly – not optimized for search engines. Think about it this way: “If you wanted to use 156 characters to describe exactly what that article contains, what would you say?”
+* Check that all pages have unique meta descriptions (with a recommended length of fewer than 156 characters, including keywords) – the meta description should be human-friendly – not optimized for search engines.
 
-* Verify that pages have your chosen keywords included without any keyword stuffing (do not over emphasize particular keywords)
+* Verify that pages have your chosen keywords included without any keyword stuffing
 
 * See that all pages have metadata which is properly in place (with correct spelling and grammar) for any content which you want to be shared via Social
 
@@ -129,9 +125,9 @@ These are some of the high-level checks we make before launching and is not a co
 
 ### Usability
 
-* Check for HTML5 compatibility using modern.ie, modernizr, and Compat Inspector
+* Check for HTML5 compatibility using [http://dev.modern.ie/tools/](modern.ie)
 
-* Create a Favicon generator for each platform here
+* Create a Favicon
 
 * Enable user and search engine friendly URLs
 
