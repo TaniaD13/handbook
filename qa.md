@@ -87,7 +87,7 @@ These are some of the high-level checks we make before launching and is not a co
 
 * Use correct input types for email, phone and URL input form fields to ensure these are rendered correctly on mobile phones
 
-* Check how the site looks on emulators such as: [http://beta.screenqueri.es/](screenqueries), [http://ipadpeek.com/](ipadpeek), [http://iphone4simulator.com/](iphonetester), [http://quirktools.com/screenfly/](screenfly)
+* Check how the site looks on emulators such as: [screenqueries](http://beta.screenqueri.es/), [ipadpeek](http://ipadpeek.com), [iphonetester](http://iphone4simulator.com), [screenfly](http://quirktools.com/screenfly)
 
 * Test the site using real devices.
 
