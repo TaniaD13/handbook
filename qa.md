@@ -36,8 +36,10 @@ We aim to get a Google Page Speed score of **90+** and a YSlow score of **85+**
 Coming Soon
 
 ## Launch Checklist/Process
+These are some of the high-level checks we make before launching and is not a complete list as each project is different. 
+
 ### Page Content
-* Make sure web copywriting has been proofread, and ran through a spelling and grammar checker to check for correctness. Use online tools such as Reverso, or Spellcheckplus.com
+* Make sure web content has been proofread, and run through a spelling and grammar checker to check for correctness.
 
 * Check that generic content, such as lorem ipsum, has been properly removed and replaced.
 
@@ -57,7 +59,7 @@ Coming Soon
 
 * Check that Auto-responders are working properly and text in emails has been proofed
 
-* External links across web pages are working properly, and open in a new tab (Fix any broken links using this tool)
+* External links across web pages are working properly, and open in a new tab.
 
 * Ensure that Social media share icons are working properly – that there is a good image for sharing and that the description for sharing is appropriate.
 
@@ -69,7 +71,7 @@ Coming Soon
 
 * Ensure that company logo is linked to the homepage.
 
-* Check that load time for site pages is optimized (confirm with multiple sources) such as GTMetrix and Pingdom tools. 
+* Check that load time for site pages is optimized.
 
 * Try a non-existing address on your page to check the 404 page and 404 redirect pages are in place
 
@@ -81,11 +83,15 @@ Coming Soon
 
 * Make sure you are using the viewport meta tag: <meta name=”viewport” content=”initial-scale=1″>
 
-* Check that your website is mobile-friendly with at least a MobileOk score of 75 and Google sees your page as Mobile Friendly. You should have fixed most of the Google Mobile Insights problems here
+* Check that your website is mobile-friendly. Most of the mobile problems should have been fixed already by this stage.
 
 * Use correct input types for email, phone and URL input form fields to ensure these are rendered correctly on mobile phones
 
-* Check how the site looks on emulators such as screenqueries, ipadpeek, iphonetester, screenfly, mobilephonesimulator.
+* Check how the site looks on emulators such as:
+** [http://beta.screenqueri.es/](screenqueries)
+** [http://ipadpeek.com/](ipadpeek)
+** [http://iphone4simulator.com/](iphonetester)
+** [http://quirktools.com/screenfly/](screenfly)
 
 * Test the site using real devices you have accessible to you or use opendevicelab.com
 
